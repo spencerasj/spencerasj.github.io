@@ -25,7 +25,7 @@ body {
     margin-right: 50px;
 }    
 main {
-    border-top-style: solid;
+    border-top: 5px;
 }
 #selfPhoto {
     position: relative;
