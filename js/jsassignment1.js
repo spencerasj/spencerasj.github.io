@@ -1,3 +1,3 @@
-let nLastModif = Date.parse(document.lastModified);
+let nLastModif = new Date(document.lastModified);
 console.log (nLastModif);
 document.getElementById("datechanged").innerHTML= nLastModif;
