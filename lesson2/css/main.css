@@ -1,0 +1,18 @@
+font-family: 'Gayathri', sans-serif;
+/*phone or baseline views ***********************************/
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+    font-size: 0.8rem;
+}
+
+/* Tablet Views ***********************************************/
+main {
+    grid-template-columns: 1fr 1fr;
+}
+
+
+/* Desktop Views ***********************************************/
+main {
+    grid-template-columns: 1fr 1fr 1fr;
+}
