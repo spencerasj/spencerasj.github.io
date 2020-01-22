@@ -26,11 +26,11 @@ body {
 }    
 
 #selfPhoto {
-    position: relative;
+    float: right;
     
-    width: 150px;
+    width: 250px;
     box-shadow: 5px 5px 5px;
-    height: 350px;
+    
     margin-right: 50px;
     margin-bottom: 50px;
 }
