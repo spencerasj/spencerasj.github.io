@@ -1,18 +1,49 @@
-font-family: 'Gayathri', sans-serif;
+body {
+    font-size: 16px;
+    font-family: 'Gayathri', sans-serif;
+}
+
 /*phone or baseline views ***********************************/
 main {
     display: grid;
     grid-template-columns: 1fr;
     font-size: 0.8rem;
+    font-family: 'Gayathri', sans-serif;
+    max-width: 767px;
+    margin: 0 auto;
+}
+section:nth-child(2) {
+    display: none;
+    margin: 0.5rem;
 }
 
+
+
 /* Tablet Views ***********************************************/
+@media only screen and (min-width: 37.5em) {
 main {
     grid-template-columns: 1fr 1fr;
 }
 
+ section:nth-child(2) {
+    display: none;
+}
+    section:nth-child(3) {
+        grid-column: span 2;
+    }
+    
+   
+
+
+}
 
 /* Desktop Views ***********************************************/
+@media only screen and (min-width: 60em) {
 main {
     grid-template-columns: 1fr 1fr 1fr;
+}   
+    section:nth-child(3) {
+        grid-column: span 1;
+    }
+
 }
