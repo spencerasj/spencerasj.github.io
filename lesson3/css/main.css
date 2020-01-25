@@ -1,10 +1,33 @@
+body {
+     font-family: 'Shadows Into Light Two', cursive;
+}
+nav {
+    text-align: center;
+    background-color: #706c61;
+    
+    color: white;
+    padding: 30px;
+    
+}
+nav li {
+    display: inline-block
+    
+}
+header {
+    width: 100%;
+}
 #logo {
     width: 150px;
     position: relative;
     background-color: white;
     top: 10px;
-   left: 10px;
-   border: 2px black solid;
+    left: 10px;
+    border-color: white;
     border-radius: 5px;
-   box-shadow: 5px 5px 5px;
+    padding: 4px;
+    float: left;
+    margin-top: -110px;
+  }
+  section {
+      background-color: #E1F4F3;
   }
