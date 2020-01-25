@@ -1,0 +1,10 @@
+#logo {
+    width: 150px;
+    position: relative;
+    background-color: white;
+    top: 10px;
+   left: 10px;
+   border: 2px black solid;
+    border-radius: 5px;
+   box-shadow: 5px 5px 5px;
+  }
