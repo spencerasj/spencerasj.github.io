@@ -35,7 +35,7 @@ div section {
 	background-color: #bcc7d4;
 	margin-top: 0;
 	padding: 0 1rem;	
-	color: white;
+	color: #3b4654;
 }
 section:nth-child(2) {
 	display: none;
