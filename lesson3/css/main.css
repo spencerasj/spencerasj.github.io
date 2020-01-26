@@ -28,6 +28,7 @@ header {
     float: left;
     margin-top: -110px;
   }
-  section {
-      background-color: #E1F4F3;
+ 
+  #color {
+      width: 350px;
   }
