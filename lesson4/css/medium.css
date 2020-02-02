@@ -1,13 +1,21 @@
-@media only screen and (min-width: 32.5em) {
-    .menu {
-       display: flex; 
-    }
-}
-    .menu li:first-child {
+@media only screen and (min-width: 35em) {
+    nav onclick {
         display: none;
     }
-
-    .menu li {
+    response li{
         display: block;
-        flex: 1 1 100%;
-    }
+      }
+    
+    .navigation {
+        display: flex; 
+     }
+ }
+     .navigation li:first-child {
+         display: none;
+     }
+ 
+     .navigation li {
+         display: block;
+         flex: 1 1 100%;
+     }
+     
