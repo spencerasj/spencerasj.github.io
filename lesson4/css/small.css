@@ -1,0 +1,98 @@
+header {
+    background-color: #706c61;
+	padding: 5px 0;
+	display: flex;
+	align-items:center;
+    justify-content:center;
+    /*font-family: 'Kalam', cursive;*/
+    font-family: 'Shadows Into Light', cursive;
+}
+
+#logo {
+    width: 50px;
+    height: auto;
+    /*border: 5px white;*/
+    float: right;
+    
+}
+#pagename {
+    display: flex;  
+}
+#motto {
+  color: white;
+}
+nav onclick {
+  margin: .2rem 2%;
+  background-color: transparent;
+  border: none;
+  font-size: 1.6rem;
+}
+nav ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    display: inline;
+}
+nav ul li a {
+  display: block;
+  padding: .8rem 2%;
+  text-decoration: none;
+  color: #333333;
+  border-top:1px solid #333333;
+}
+nav ul li a:hover {
+  background-color: #E1F4F3;;
+}
+.navigation {
+  margin: 0 auto;
+  max-width: 760px;
+  background-color: #E1F4F3;
+  font-family:'Shadows Into Light', cursive;
+  color: #333333;
+  list-style: none;
+  text-align: center;
+  padding: 0;
+  }
+.navigation li {
+  display: none;
+}
+.navigation li:first-child {
+        display: block;
+    }
+
+h1 {
+    color: white;
+    font-size: 1.6rem;
+	margin: 0 0 0 17px;
+}
+
+footer {
+    background-color: #706c61;
+	  padding: 5px 0;
+	  display: flex;
+	  align-items:center;
+    justify-content:center;
+    color: white;
+}
+/*the onclick JS toggles the .responsive class from display non (.navigation li) to display block because the responsive class is added to the end of the class list like this in HTML line #6
+  <ul class="navigation responsive">
+*/
+response li{
+  display: block;
+}
+
+/*medium screen*/
+@media only screen and (min-width: 32.5em) {
+    .navigation {
+       display: flex; 
+    }
+}
+    .navigation li:first-child {
+        display: none;
+    }
+
+    .navigation li {
+        display: block;
+        flex: 1 1 100%;
+    }
