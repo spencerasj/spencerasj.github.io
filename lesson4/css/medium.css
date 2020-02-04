@@ -2,7 +2,7 @@
     nav onclick {
         display: none;
     }
-    response li{
+    .response li{
         display: block;
       }
     
