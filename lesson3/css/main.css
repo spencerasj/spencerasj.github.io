@@ -38,8 +38,12 @@ header {
         flex-direction: row;
     }
     nav ul {
-        flex-direction: row;
+        flex-direction: row;     
     }
+    #nav {
+        text-decoration: none;
+    }
+    
     #div2 {
         flex-direction: column;
     }
