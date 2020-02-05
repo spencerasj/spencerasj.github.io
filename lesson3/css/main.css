@@ -35,13 +35,13 @@ header {
         padding: 50px;
     }
     #div1 {
-        flex: horizontal;
+        flex-direction: row;
     }
     nav ul {
-        flex: horizontal;
+        flex-direction: row;
     }
     #div2 {
-        flex: vertical;
+        flex-direction: column;
     }
  
   #color {
