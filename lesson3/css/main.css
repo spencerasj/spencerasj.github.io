@@ -19,17 +19,17 @@ header {
     
 }
 #logo {
-        width: 110px;
-        position: relative;
-        background-color: white;
-        top: 10px;
-        left: 10px;
-        border-color: white;
-        border-radius: 5px;
-        padding: 15px;
-        float: left;
-        margin-top: -97px;
-    }
+    width: 110px;
+    position: relative;
+    background-color: white;
+    top: 10px;
+    left: 10px;
+    border-color: white;
+    border-radius: 5px;
+    padding: 15px;
+    float: left;
+    margin-top: -45px;
+}
     main {
         display: block;
         padding: 50px;
