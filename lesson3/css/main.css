@@ -12,7 +12,11 @@ header{
 
 header li {
     display: inline-block
-    
+}
+li a {
+    color: white;
+    text-decoration: none;
+
 }
 header {
     width: 100%;
