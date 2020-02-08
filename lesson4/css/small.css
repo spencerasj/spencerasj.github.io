@@ -19,6 +19,10 @@ img {
   padding: 15px;
   float: left;
 }
+.headings {
+  display: flex;
+  flex-direction: column;
+}
 
 h1 {
   color: white;
@@ -28,6 +32,7 @@ h1 {
 h3 {
   padding-left: 35px;
   color: white;
+  font-family: 'Shadows Into Light', cursive;
 }
 nav onclick {
   margin: .2rem 2%;
@@ -70,6 +75,12 @@ nav ul li a:hover {
 .navigation li:first-child {
         display: block;
     
+}
+
+h2 {
+  font-family: 'Shadows Into Light', cursive;
+  color: #333333;
+  text-align: center;
 }
 .placeholder {
   border-style: dotted;

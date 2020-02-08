@@ -1,7 +1,6 @@
 @media only screen and (min-width: 37.5em) {
     header img {
-        margin-top: 6px;
-        margin-bottom: 6px;
+        width: 100%;
     }
     nav onclick {
         display: none;
