@@ -98,6 +98,12 @@ footer {
     color: white;
     font-family: 'Shadows Into Light', cursive;
 }
+
+footer p a {
+   color: white;
+   text-decoration: none;
+}
+
 /*the onclick JS toggles the .responsive class from display non (.navigation li) to display block because the responsive class is added to the end of the class list like this in HTML line #6
   <ul class="navigation responsive">
 */
