@@ -35,6 +35,11 @@ nav ul {
 #div2 {
   flex-direction: column;
 }
+h1 {
+  color: white;
+  font-size: 1.6rem;
+margin: 0 0 0 17px;
+}
 nav onclick {
   margin: .2rem 2%;
   background-color: transparent;
@@ -56,7 +61,7 @@ nav ul li a {
   border-top:1px solid #333333;
 }
 nav ul li a:hover {
-  background-color: #E1F4F3;;
+  background-color: #E1F4F3;
 }
 .navigation {
   margin: 0 auto;
@@ -77,10 +82,11 @@ nav ul li a:hover {
         display: block;
     
 }
-h1 {
-    color: white;
-    font-size: 1.6rem;
-	margin: 0 0 0 17px;
+.placeholder {
+  border-style: dotted;
+  background-color: #E1F4F3;
+  font-family: 'Shadows Into Light', cursive;
+  color: #333333;
 }
 
 footer {
@@ -90,6 +96,7 @@ footer {
 	align-items:center;
     justify-content:center;
     color: white;
+    font-family: 'Shadows Into Light', cursive;
 }
 /*the onclick JS toggles the .responsive class from display non (.navigation li) to display block because the responsive class is added to the end of the class list like this in HTML line #6
   <ul class="navigation responsive">
