@@ -1,6 +1,6 @@
 header {
   background-color: #706c61;
-	padding: 5px 0;
+	padding: 15px 0;
 	display: flex;
 	align-items: center;
   justify-content: center;
@@ -23,7 +23,11 @@ img {
 h1 {
   color: white;
   font-size: 1.6rem;
-margin: 0 0 0 17px;
+  margin: 0 0 0 36px;
+}
+h3 {
+  padding-left: 35px;
+  color: white;
 }
 nav onclick {
   margin: .2rem 2%;
@@ -72,6 +76,7 @@ nav ul li a:hover {
   background-color: #E1F4F3;
   font-family: 'Shadows Into Light', cursive;
   color: #333333;
+  padding-left: 25px;
 }
 
 footer {

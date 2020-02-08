@@ -1,1 +1,5 @@
-@media only screen and (min-width: 63em) {}
+@media only screen and (min-width: 63em) {
+    header img {
+        width: 100%
+    }
+}
