@@ -1,0 +1,35 @@
+@media only screen and (min-width: 37.5em) {
+    header img {
+        width: 100%;
+    }
+    nav onclick {
+        display: none;
+    }
+    .responsive li{
+        display: block;
+      }
+    
+    .navigation li a {
+        display: flex; 
+        flex-direction: row;
+     }
+      .navigation li:first-child {
+         display: none;
+     }
+ 
+     .navigation li {
+         display: block;
+         flex: 1 1 100%;
+     }
+     nav ul{
+         margin-left: 2%;
+     }
+     nav ul li {
+         float: left;
+     }
+     nav ul li a {
+         border: none;
+         border-right: 1px solid #333333;
+         padding: .8rem 1rem;
+     }
+    }
