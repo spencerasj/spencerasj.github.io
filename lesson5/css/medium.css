@@ -5,9 +5,10 @@
     nav onclick {
         display: none;
     }
-    .responsive li{
+    .responsive li {
         display: block;
       }
+      
     
     .navigation li a {
         display: flex; 
