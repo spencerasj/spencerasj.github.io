@@ -4,7 +4,7 @@ header {
 	display: flex;
 	align-items: center;
   justify-content: center;
-    /*font-family: 'Kalam', cursive;*/
+   
   font-family: 'Shadows Into Light', cursive;
 }
 img {
@@ -115,7 +115,7 @@ footer p a {
 /*the onclick JS toggles the .responsive class from display non (.navigation li) to display block because the responsive class is added to the end of the class list like this in HTML line #6
   <ul class="navigation responsive">
 */
-.response li {
+.responsive li {
   display: block;
 }
 
