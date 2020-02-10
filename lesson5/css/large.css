@@ -1,7 +1,5 @@
 @media only screen and (min-width: 63em) {
-    header img {
-        width: 100%
-    }
+   
 nav ul li a {
     padding: .6rem 1rem;
 }

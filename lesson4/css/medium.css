@@ -5,9 +5,7 @@
     nav onclick {
         display: none;
     }
-    .responsive li{
-        display: block;
-      }
+    
     .navigation {
         flex-direction: row;
     }

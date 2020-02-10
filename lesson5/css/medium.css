@@ -1,6 +1,6 @@
 @media only screen and (min-width: 37.5em) {
     header img {
-        width: 100%;
+        width: 10%;
     }
     nav onclick {
         display: none;
@@ -8,7 +8,9 @@
     .responsive li {
         display: block;
       }
-      
+    .navigation {
+        flex-direction: row;
+    }  
     
     .navigation li a {
         display: flex; 
