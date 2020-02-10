@@ -8,7 +8,9 @@
     .responsive li{
         display: block;
       }
-    
+    .navigation {
+        flex-direction: row;
+    }
     .navigation li a {
         display: flex; 
         flex-direction: row;
