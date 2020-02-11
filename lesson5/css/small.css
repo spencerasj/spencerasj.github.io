@@ -39,9 +39,9 @@ h3 {
 .navigation {
   margin: 0 auto;
   
-  background-color: #E1F4F3;
+  background-color: #333333;
   font-family:'Shadows Into Light', cursive;
-  color: #333333;
+  color: white;
   list-style: none;
   text-align: center;
   padding: 0;
@@ -50,6 +50,7 @@ h3 {
   }
   .navigation li {
     display: none;
+    color: white;
   }
   .navigation li:first-child {
     display: block;
@@ -74,14 +75,16 @@ nav ul li a {
   text-decoration: none;
   color: #333333;
   border-top:1px solid #333333;
+  color: white;
 }
 
 nav ul li.active a {
-  background-color:  #706c61;
-  color: white;
+  background-color: #E1F4F3;
+  color:  #333333;
 }
 nav ul li a:hover {
-  background-color: #E1F4F3;
+  background-color: #333333;
+  color: white;
 }
 main {
   max-width: 820px;
