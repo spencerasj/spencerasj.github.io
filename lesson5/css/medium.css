@@ -2,6 +2,9 @@
     header img {
         width: 10%;
     }
+    h3 {
+        padding-left: 125px;
+    }
     nav onclick {
         display: none;
     }
