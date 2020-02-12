@@ -3,5 +3,39 @@
 nav ul li a {
     padding: .6rem 1rem;
 }
-
+.forecastcontainer {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 150px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
 }
+.fcheader {
+    display:flex;
+    flex-direction: row;
+    background-color: #333333;
+    height: 40px;
+    
+}
+.fcbox {
+    display: flex;
+    flex-direction: column;
+    width: 165px;
+    height: 150px;
+    border:solid #706c61;
+    border-width: thin;
+}
+ .day {
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    padding: 5px;
+    font-family: 'Shadows Into Light', cursive;
+}
+
+
+ }  
+
+
