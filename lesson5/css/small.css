@@ -136,6 +136,57 @@ div {
 .forecastcontainer {
   display: none;
 }
+#contact {
+  font-family: 'Shadows Into Light', cursive;
+  color: #706c61;
+}
+.sec1, .sec2 {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.sec2 {
+  background-color: #E1F4F3;
+}
+.sec1 div, .sec2 div{
+ padding: 10px;
+ flex-wrap: wrap;
+ 
+}
+.leftcol {
+   flex: 1;
+}
+.rightcol {
+    flex:1;
+}
+
+.forecastdiv{
+  display: none;
+}
+.article {
+
+  font-family: 'Shadows Into Light', cursive;
+  color: #333333;
+  text-align: center;
+  font-size: xx-large;
+  font-weight: bolder;
+  padding-top: 10px;
+}
+p {
+  text-align: center;
+}
+#articlepic {
+  height: 162px;
+  width: 335px;
+}  
+.contactinfo {
+  display: flex;
+  flex-direction: column;
+}
+.smicon {
+  width: 35px;
+  height: 35px;
+}
 
 footer {
     background-color: #706c61;
