@@ -1,4 +1,5 @@
 #bbq {
+  display: block;
   background-color: #E1F4F3;
   width: 100%;
   height: 50px;
@@ -138,7 +139,7 @@ div {
 }
 #contact {
   font-family: 'Shadows Into Light', cursive;
-  color: #706c61;
+  color: white;
 }
 .sec1, .sec2 {
   display: flex;
@@ -146,7 +147,8 @@ div {
 }
 
 .sec2 {
-  background-color: #E1F4F3;
+  background-color: #706c61;
+  border: thin;
 }
 .sec1 div, .sec2 div{
  padding: 10px;
@@ -179,13 +181,16 @@ p {
   height: 162px;
   width: 335px;
 }  
+
 .contactinfo {
   display: flex;
   flex-direction: column;
+
 }
 .smicon {
   width: 35px;
   height: 35px;
+  background-color: #706c61;
 }
 
 footer {
