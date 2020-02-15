@@ -4,13 +4,13 @@
  * Output: Display banner on Friday only
  */
 
-
+function display() {
     let n = new Date();
     let dayOfWeek = n.getDay();
-    if (dayOfWeek === 5) {
+    if (dayOfWeek == 4) {
         document.getElementById("bbq").style.display = "block";
 }
      else {
         document.getElementById("bbq").style.display = "none"; 
      }
-
+}
