@@ -34,7 +34,7 @@
     padding: 5px;
     font-family: 'Shadows Into Light', cursive;
 }
-#sunlogo {
+.sunlogo {
     width: 65px;
     padding: 5px;
     margin-top: 5px;
@@ -45,7 +45,7 @@
     font-family: 'Shadows Into Light', cursive;
     font-weight: bold;
     text-align: center;
-    color: #706c61;
+    color: #333333;
 
 }
 .forecastcontainer{

@@ -7,10 +7,8 @@
 
     let n = new Date();
     let dayOfWeek = n.getDay();
-    if (dayOfWeek === 5) {
+    if (dayOfWeek == 5) {
         document.getElementById("bbq").style.display = "block";
 }
-     else {
-        document.getElementById("bbq").style.display = "none"; 
-     }
+    
 
