@@ -16,7 +16,10 @@ header {
    
   font-family: 'Shadows Into Light', cursive;
 }
-img {
+.heropic img {
+  width: 100%;
+}
+header img {
   width: 80px;
   height: auto;
   position: relative;
@@ -115,7 +118,7 @@ h2 {
   margin-top: 10px;
 }
 
-.weathercontainer {
+/*.weathercontainer {
   width: 100%;
   background: url(../images/weatherpagepicnew.jpg);
   background-size: cover !important;
@@ -124,7 +127,7 @@ h2 {
   margin-top: 10px;
   margin-bottom: 10px;
   
-}
+}*/
 .weathersummary {
   position: relative;
   top: 25px;

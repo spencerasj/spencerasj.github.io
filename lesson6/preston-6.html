@@ -44,10 +44,10 @@
       <div class="herodiv">
            <section class="weather">
              <div class="weathercontainer">
-              <picture>
+              <picture class="heropic">
                 <source media="(min-width: 60em)" srcset="">
-                <source media="(min-width: 37.5em)" srcset="elva-800w.jpg">
-                <img src="elva-800w.jpg" alt="Chris standing up holding his daughter Elva">
+                <source media="(min-width: 37.5em)" srcset="ima">
+                <img src="images/cit230_image_small.jpg" alt="small field picture">
               </picture>
                <div class="weathersummary">
                  <span class="header">Weather Summary</span>
@@ -58,7 +58,7 @@
                    </div>   
                    <div class="list">
                     <span class="first">High:</span>
-                    <span class="second">42F</span>
+                    <span id="tempFahr" class="second">42F</span>
                   </div> 
                   <div class="list">
                     <span class="first">Wind Chill:</span>
@@ -69,7 +69,7 @@
                     <span class="second">57%</span>
                   </div>
                   <div class="list">
-                    <span class="first">Wind Speed:</span>
+                    <span id="windSpeed" class="first">Wind Speed:</span>
                     <span class="second">5 mph</span>
                   </div>
                 </div>
@@ -155,6 +155,7 @@
           </section>
          <script src="js/jsassignment4.js"></script>
         <script src="js/bbqbanner.js"></script>
+        <script>src="js/windchill.js"</script>
         </footer>
 </body>
 
