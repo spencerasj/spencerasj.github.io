@@ -16,6 +16,13 @@ header {
    
   font-family: 'Shadows Into Light', cursive;
 }
+.weather {
+  display: flex;
+}
+.weathercontainer {
+  flex-direction: row;
+}
+
 .heropic img {
   width: 100%;
 }
@@ -129,6 +136,7 @@ h2 {
   
 }*/
 .weathersummary {
+  flex-direction: row;
   position: relative;
   top: 25px;
   left: 50px;
