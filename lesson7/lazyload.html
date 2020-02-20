@@ -9,31 +9,32 @@
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <link href="" rel="stylesheet">
+  <link href="css/main.css" rel="stylesheet">
   </head>
 
 <body>
-    <h1></h1>
+    <h1>Lazy Loading Images</h1>
+    <div>
     <picture>
-        <img>
+        <img class="pic" src="images/placeholder.jpg" data-src="images/apple.jpg" alt="apple">
     </picture>
     <picture>
-        <img>
+        <img class="pic" src="images/placeholder.jpg" data-src="images/bearlake.jpg" alt="bear lake">
     </picture>
     <picture>
-        <img>
+        <img class="pic" src="images/placeholder.jpg" data-src="images/hike.jpg" alt="mountain trail">
     </picture>
     <picture>
-        <img>
+        <img class="pic" src="images/placeholder.jpg" data-src="images/river.jpg" alt="river">
     </picture>
     <picture>
-        <img>
+        <img class="pic" src="images/placeholder.jpg" data-src="images/snake.jpg" alt="snake on rock">
     </picture>
-    
+</div>
   
 
-  <script src="js/script.js"></script>
-  
+  <script src="js/lazy.js"></script>
+<script src="js/observer.js"></script>
 </body>
 
 </html>

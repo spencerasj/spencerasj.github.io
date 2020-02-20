@@ -1,0 +1,18 @@
+h1 {
+    text-align: center;
+}
+div {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+}
+.pic {
+    border-style: solid thin;
+}
+picture img[data-src] {
+    filter: blur(0.2em);
+}
+picture img {
+    filter: blur(0em);
+    transition: filter 2s;
+}
