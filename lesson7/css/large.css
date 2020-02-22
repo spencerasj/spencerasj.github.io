@@ -3,6 +3,17 @@
     nav ul li a {
     padding: .6rem 1rem;
 }
+#gridcontainer {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-items: center;
+}
+.griditem {
+    padding: 15px;
+}
+.griditem:hover {
+    box-shadow: 0 0 50px #333;
+}
 .forecastcontainer {
     display: flex;
     flex-direction: row;
