@@ -1,0 +1,93 @@
+@media only screen and (min-width: 60em) {
+
+    nav ul li a {
+    padding: .6rem 1rem;
+}
+.forecastcontainer {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 150px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+}
+.fcheader {
+    display:flex;
+    flex-direction: row;
+    background-color: #333333;
+    height: 40px;
+    
+}
+.fcbox {
+    display: flex;
+    flex-direction: column;
+    width: 165px;
+    height: 150px;
+    border:solid #706c61;
+    border-width: thin;
+}
+ .day {
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    padding: 5px;
+    font-family: 'Shadows Into Light', cursive;
+}
+.sunlogo {
+    width: 65px;
+    padding: 5px;
+    margin-top: 5px;
+    margin-left: 33px;
+}
+.temp {
+    font-size: x-large;
+    font-family: 'Shadows Into Light', cursive;
+    font-weight: bold;
+    text-align: center;
+    color: #333333;
+
+}
+.forecastcontainer{
+    display: flex;
+}
+.forecastdiv {
+    display: flex;
+    flex-direction: row;
+    font-family: 'Shadows Into Light', cursive;
+    color: #333333;
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bolder;
+    padding-top: 10px;
+}
+p {
+    text-align: center;
+}
+#articlepic {
+    height: 162px;
+    width: 335px;
+}  
+.contactinfo {
+    display: flex;
+    flex-direction: column;
+}
+.smicon {
+    width: 35px;
+    height: 35px;
+  }
+#map {
+    height: 175px;
+    width: 325px;
+}
+footer {
+    margin-right: 248px;
+    margin-left: 248px;
+    margin-top: 25px;
+}
+}
+
+
+   
+
+
