@@ -5,6 +5,11 @@
     h3 {
         padding-left: 125px;
     }
+    #gridcontainer {
+        display: grid;
+        grid-template-columns: auto auto;
+        justify-items: center;
+    }
     nav onclick {
         display: none;
     }

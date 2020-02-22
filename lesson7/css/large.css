@@ -10,9 +10,18 @@
 }
 .griditem {
     padding: 15px;
+    border-style: solid;
+    border-color:  #706c61;
 }
 .griditem:hover {
     box-shadow: 0 0 50px #333;
+}
+.gridtext {
+    font-family: 'Shadows Into Light', cursive;
+    color: #706c61;
+    font-size: large;
+    font-weight: bold;
+    margin-top: 0px;
 }
 .forecastcontainer {
     display: flex;
