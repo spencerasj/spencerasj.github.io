@@ -6,8 +6,7 @@
 #gridcontainer {
     display: grid;
     grid-template-columns: auto auto auto;
-    justify-items: center;
-}
+}   
 .griditem {
     padding: 15px;
     border-style: solid;

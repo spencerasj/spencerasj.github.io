@@ -180,6 +180,7 @@ h2 {
 }
 
 .sec2 {
+  display: none;
   background-color: #706c61;
   border: thin;
 }
