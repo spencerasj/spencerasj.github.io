@@ -2,6 +2,8 @@ table {
     font-family: 'Ubuntu', sans-serif;
     box-shadow: 5px 5px 10px 0 #628ca6;
     text-align: center;
+    border-style: solid;
+    border-color:#e7ffed;
     
 }
 table, tr, td {
