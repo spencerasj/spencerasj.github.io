@@ -1,14 +1,13 @@
 table {
     font-family: 'Ubuntu', sans-serif;
     box-shadow: 5px 5px 10px 0 #628ca6;
-    text-align: center;
-    border-style: solid;
-    border-color:#e7ffed;
+    text-align: center;  
+    border-collapse: collapse;
     
 }
 table, tr, td {
-    border: thin;
-    border-color: #e7f0ed;
+    border: 1px solid #bbbbbb;
+    padding: 5px;
     
 }
 .header, .footer {
@@ -19,7 +18,12 @@ table, tr, td {
     font-weight: bold;
     font-size: x-large;
 }
-#titles {
+/*#titles {
+    background-color: #628ca6;
+    color: white;
+    font-weight: bold;
+}*/
+tbody tr:first-child {
     background-color: #628ca6;
     color: white;
     font-weight: bold;
@@ -36,6 +40,10 @@ table, tr, td {
 }
 #bfcost {
     text-align: center;
+}
+#highlight {
+    background-color: #628ca6;
+    color: white;
 }
 
 .footer {
