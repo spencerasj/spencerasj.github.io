@@ -51,7 +51,7 @@
               <label class="top">Zip Code*<input type="number" name="zip" required></label>
         </fieldset>
         <fieldset>
-               <label class="top">Storm Date<input type="date" name="" ></label>
+               <label class="top">Storm Date<input type="date" name="date" ></label>
                <label class="top">Storm Type<input list="weather" name="weathertype">
                 <datalist id="weather">
                    <option value="Flash Flood">
@@ -61,7 +61,7 @@
                    <option value="Tornado">
                 </datalist>
                </label>
-               <label class="top" class="flexly" for="stormseverity">Storm Severity<input type="range" id="severity" 
+               <label class="flexly" for="stormseverity">Storm Severity<input type="range" id="stormseverity" 
                 value="5" min="1" max="10" step="1" list="tickmarks" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)" name="fname"><span id="ratingvalue">5</span>            
                     <datalist id="tickmarks">
                     <option value="0">
