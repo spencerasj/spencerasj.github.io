@@ -3,6 +3,16 @@
     nav ul li a {
     padding: .6rem 1rem;
 }
+form fieldset {
+    max-width: 30%;
+    margin-left: 400px;
+}
+form label.sbs{
+   padding: .4rem 0;
+}
+form input.submitButton  {
+    margin-left: 500px;
+}
 #gridcontainer {
     display: grid;
     grid-template-columns: auto auto auto;
