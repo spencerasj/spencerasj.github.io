@@ -6,6 +6,9 @@ body{
 }
 main{
     text-align: center;
+    border: 1px solid grey;
+    padding: 20px;
+    box-shadow: 0 0 20px #000;
 }
 h1{
     font-family: 'Open Sans Condensed', sans-serif;
@@ -31,5 +34,5 @@ p {
 img {
     box-shadow: 0 0 20px #000;
     margin-top: 10px;
-}    
+    height: 200px;
 
