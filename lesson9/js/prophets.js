@@ -9,15 +9,19 @@ fetch(requestURL)
     const prophets = jsonObject['prophets'];
     for (let i = 0; i < prophets.length; i++ ) {
         let card = document.createElement('section');
-        let h2 = document.createElement('h2');
-        let h3 = document.createElement('h3');
-        let h4 = document.createElement('h4');
+        let name = document.createElement('h2');
+        let birthday = document.createElement('p');
+        let birthplace = document.createElement('p');
+        let image = document.createElement('img');
 
-        h2.textContent = prophets[i].name + ' ' + prophets[i].lastname;
-        h3.textContent = "Date of Birth: " + prophets[i].birthdate;
-        h4.textContent = "Place of Birth: " + prophets[i].birthplace;
-        
-        card.appendChild(h2);
+        name.textContent = prophets[i].name + ' ' + prophets[i].lastname;
+        birthday.textContent = "Date of Birth: " + prophets[i].birthdate;
+        birthplace.textContent = "Place of Birth: " + prophets[i].birthplace;
+        image.setAttribute('src', prophets[i].imageurl);
+        card.appendChild(name);
+        card.appendChild(birthday);
+        card.appendChild(birthplace);
+        card.appendChild(image);
 
 document.querySelector('div.cards').appendChild(card);
       };
