@@ -42,6 +42,8 @@ img {
     height: 200px;
 }
 footer{
+    font-family: 'Open Sans Condensed', sans-serif;
+    padding: 20px;
     text-align: center;
 }
 @media only screen and (min-width: 37.5em) {
@@ -61,8 +63,17 @@ footer{
 }
 }
 @media only screen and (min-width: 60em) {
-body{
+div.cards {
     display: grid;
     grid-template-columns: auto auto auto auto;
     } 
+    h1 {
+        grid-column-start: 1;
+        grid-column-end: 5; 
+    }
+    
+    footer{
+        grid-column-start: 1;
+        grid-column-end: 5;
+    }    
 }
