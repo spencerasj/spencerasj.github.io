@@ -1,7 +1,11 @@
 @media only screen and (min-width: 60em) {
     header img {
-        width: 10%;
+        width: 5%;
+        padding: 8px
     }
+ h1 {
+     font-stretch: wider;
+ }   
     nav ul li a {
     padding: .6rem 1rem;
 }
