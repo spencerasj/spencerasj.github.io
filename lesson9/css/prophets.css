@@ -1,23 +1,27 @@
 /* -----------------------small css------------------------*/
-body{
+/*body{
     display: grid;
+    grid-template-columns: 1fr;
     grid-gap: 10px;
-    justify-content:center;  
-}
-main{
+    justify-content:center; 
+}*/
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+    justify-content:center;
     text-align: center;
     border: 1px solid grey;
     padding: 10px;
     box-shadow: 0 0 20px #000;
 }
-h1{
+h1 { 
     font-family: 'Open Sans Condensed', sans-serif;
     font-size: 40px;
     text-align: center;
     margin: 0;
 }
 section {
-    display: auto;
     font-family: 'Open Sans Condensed', sans-serif;
     background-color: rgb(236, 237, 245);
     border: 2px solid rgb(51, 51, 54);
@@ -40,11 +44,25 @@ img {
 footer{
     text-align: center;
 }
-@media only screen and (min-width: 37.5em){
-    body {
-       grid-template-columns: auto auto; 
-       grid-template-rows: auto auto auto auto auto auto;
-    }
+@media only screen and (min-width: 37.5em) {
+div.cards{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+h1 {
+    grid-column-start: 1;
+    grid-column-end: 3; 
+}
+
+footer{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
 }
 @media only screen and (min-width: 60em) {
+body{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    } 
 }
