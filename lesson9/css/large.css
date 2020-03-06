@@ -12,11 +12,11 @@
 /*-----------------------------------homepage large------------------------------------>*/
 #homecontainer div.cards {
     display: grid;
-    grid-template-columns: auto auto auto auto;
+    grid-template-columns: auto auto auto;
     } 
     #homecontainer div.cards section h3  {
         grid-column-start: 1;
-        grid-column-end: 5; 
+        grid-column-end: 4; 
     }
  /*-------------------------------  homepage large end-------------------------------->*/
 form fieldset {
