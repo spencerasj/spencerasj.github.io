@@ -15,11 +15,13 @@
         display: grid;
         grid-template-columns: auto auto;
         text-align: center;
+        
     }
     
-    #homecontainer h3 {
+    #homecontainer div.cards section h3 {
         grid-column-start: 1;
         grid-column-end: 3; 
+        padding: 0;
     }
     nav onclick {
         display: none;
