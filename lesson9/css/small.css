@@ -224,8 +224,9 @@ form input.submitButton {
 }
 #homecontainer div.cards section h4 {
   font-style: italic;
+  font-weight: bold;
   font-family: 'Shadows Into Light', cursive;
-  
+  color: #706c61;
   text-align: center;
   margin: 0;
   text-shadow: none;

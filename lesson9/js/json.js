@@ -16,19 +16,21 @@ fetch(requestURL)
         let rainfall = document.createElement('p');
         let photo = document.createElement('img');
 
-        if (towns[i].name === ("Fish Haven" || "Preston" || "Soda Springs"));
-            name.textContent = towns[i].name;
-            motto.textContent = towns[i].motto;
-            yearFounded.textContent = "Year Founded: " + towns[i].yearFounded;
-            population.textContent = "Poulation: " + towns[i].currentPopulation;
-            rainfall.textContent = "Annual Rainfall: " + towns[i].averageRainfall;
-            photo.setAttribute('src', "images/" + towns[i].photo);
-            card.appendChild(name);
-            card.appendChild(motto);
-            card.appendChild(yearFounded);
-            card.appendChild(population);
-            card.appendChild(rainfall);
-            card.appendChild(photo);
+        name.textContent = towns[i].name;
+        motto.textContent = towns[i].motto;
+        yearFounded.textContent = "Year Founded: " + towns[i].yearFounded;
+        population.textContent = "Poulation: " + towns[i].currentPopulation;
+        rainfall.textContent = "Annual Rainfall: " + towns[i].averageRainfall;
+        photo.setAttribute('src', "images/" + towns[i].photo);
+        card.appendChild(name);
+        card.appendChild(motto);
+        card.appendChild(yearFounded);
+        card.appendChild(population);
+        card.appendChild(rainfall);
+        card.appendChild(photo);
+        
+            
+
 
 document.querySelector('div.cards').appendChild(card);
       };
