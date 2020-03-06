@@ -195,6 +195,43 @@ form input.submitButton {
   width: 96%;
   max-width: 20rem;
 }
+/*------------------------------home page---------------------------------------*/
+
+#homecontainer{
+  display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+    justify-content:center;
+    text-align: center;
+    border: 1px solid grey;
+    padding: 10px;
+    box-shadow: 0 0 20px #000;
+    background-color: white;
+}
+#homecontainer div.cards section h3{ 
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 40px;
+  text-align: center;
+  margin: 0;
+  text-shadow: none;
+}
+#homecontainer section {
+  font-family: 'Shadows Into Light', cursive;
+  background-color: rgb(245, 245, 247);
+  border: 2px solid rgb(51, 51, 54);
+  padding: 10px;
+  margin: 10px;
+}
+
+#homecontainer p {
+  margin: 0;
+}
+#homecontainer img {
+  box-shadow: 0 0 20px #000;
+  margin-top: 10px;
+  height: 200px;
+}
+/*-------------------------------------end home page-------------------------------->
 /*div {
    display:  block;
 }*/

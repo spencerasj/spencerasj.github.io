@@ -10,6 +10,17 @@
         grid-template-columns: auto auto;
         justify-items: center;
     }
+    /*------------------------homepage--------------------------------------------*/
+    #homecontainer div.cards{
+        display: grid;
+        grid-template-columns: auto auto;
+        text-align: center;
+    }
+    
+    #homecontainer h3 {
+        grid-column-start: 1;
+        grid-column-end: 3; 
+    }
     nav onclick {
         display: none;
     }
