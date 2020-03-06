@@ -222,8 +222,14 @@ form input.submitButton {
   padding: 10px;
   margin: 10px;
 }
-#homecontainer h4 {
+#homecontainer div.cards section h4 {
   font-style: italic;
+  font-family: 'Shadows Into Light', cursive;
+  
+  text-align: center;
+  margin: 0;
+  text-shadow: none;
+  padding: 5px;
 }
 
 #homecontainer p {

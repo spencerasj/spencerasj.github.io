@@ -16,7 +16,7 @@ fetch(requestURL)
         let rainfall = document.createElement('p');
         let photo = document.createElement('img');
 
-        if (towns[i].name = ("Fish Haven" || "Preston" || "Soda Springs"));
+        if (towns[i].name === ("Fish Haven" || "Preston" || "Soda Springs"));
             name.textContent = towns[i].name;
             motto.textContent = towns[i].motto;
             yearFounded.textContent = "Year Founded: " + towns[i].yearFounded;
@@ -24,6 +24,7 @@ fetch(requestURL)
             rainfall.textContent = "Annual Rainfall: " + towns[i].averageRainfall;
             photo.setAttribute('src', "images/" + towns[i].photo);
             card.appendChild(name);
+            card.appendChild(motto);
             card.appendChild(yearFounded);
             card.appendChild(population);
             card.appendChild(rainfall);
