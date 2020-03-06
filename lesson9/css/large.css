@@ -9,6 +9,16 @@
     nav ul li a {
     padding: .6rem 1rem;
 }
+/*-----------------------------------homepage large------------------------------------>*/
+#homecontainer div.cards {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    } 
+    #homecontainer div.cards section h3  {
+        grid-column-start: 1;
+        grid-column-end: 5; 
+    }
+ /*-------------------------------  homepage large end-------------------------------->*/
 form fieldset {
     max-width: 30%;
     margin-left: 400px;
