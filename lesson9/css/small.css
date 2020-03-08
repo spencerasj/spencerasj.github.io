@@ -201,6 +201,8 @@ form input.submitButton {
 }
 div #welText {
     padding: 0;
+    text-shadow: none;
+    margin: 0;
 
 }
 #homecontainer{
@@ -246,6 +248,11 @@ div #welText {
   box-shadow: 0 0 20px #000;
   margin-top: 10px;
   height: 200px;
+}
+#homecontainer #wireframeslist {
+  background-color:  #706c61;
+  color: white;
+
 }
 /*-------------------------------------end home page-------------------------------->
 /*div {
