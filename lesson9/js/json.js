@@ -5,9 +5,11 @@ fetch(requestURL)
     return response.json();
   })
   .then(function (jsonObject) {
-    console.table(jsonObject); 
+     
+
     const towns = jsonObject['towns'];
     for (let i = 0; i < towns.length; i++ ) {
+        if (towns[i].name === "Fish Haven" || towns[i].name == "Preston" || towns[i].name == "Soda Springs") {
         let card = document.createElement('section');
         let name = document.createElement('h3');
         let motto = document.createElement('h4');
@@ -15,7 +17,6 @@ fetch(requestURL)
         let population = document.createElement('p');
         let rainfall = document.createElement('p');
         let image = document.createElement('img');
-
         name.textContent = towns[i].name;
         motto.textContent = towns[i].motto;
         yearFounded.textContent = "Year Founded: " + towns[i].yearFounded;
@@ -33,5 +34,6 @@ fetch(requestURL)
 
 
 document.querySelector('div.cards').appendChild(card);
+        }
       };
     }); 
