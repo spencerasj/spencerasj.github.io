@@ -196,7 +196,13 @@ form input.submitButton {
   max-width: 20rem;
 }
 /*------------------------------home page---------------------------------------*/
+#homepic {
+  max-width: 100%;
+}
+div #welText {
+    padding: 0;
 
+}
 #homecontainer{
   display: grid;
     grid-template-columns: 1fr;
