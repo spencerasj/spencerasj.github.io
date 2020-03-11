@@ -288,9 +288,10 @@ div #welText {
   left: 15px;
   padding: 1.5rem;
   box-shadow: 0 0 20px black;
-  opacity: .9;
+  opacity: .6;
   margin-top: 10px;
   font-weight: bold;
+  background-color: floralwhite;
   
 }
 .forecastcontainer {
