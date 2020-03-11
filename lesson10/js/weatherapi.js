@@ -6,8 +6,7 @@ fetch(apiURL)
 
     for (let i = 0; i < jsObject.list.length; i++ ) {
         document.getElementById('current-temp').textContent = ((((jsObject.list[i].main.temp) - 273.15) * 1.8 + 32).toFixed(2));
-    }
-    for (let i = 0; i < jsObject.weather.length; i++ ) {
+        
         const imagesrc = 'https://openweathermap.org/img/w/' + jsObject.weather[i].icon + '.png';  // note the concatenation
         const desc = jsObject.weather[i].description;  // note how we reference the weather array
         document.getElementById('imagesrc').textContent = imagesrc;  // informational specification only
