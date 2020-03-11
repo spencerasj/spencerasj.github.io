@@ -282,13 +282,15 @@ div #welText {
   
 }*/
 .weathersummary {
+  font-family: 'Shadows Into Light', cursive;
   display: inline-block;
   position: absolute;
-  top: 25px;
-  left: 50px;
+  left: 15px;
   padding: 1.5rem;
-  box-shadow: 0 0 30px black;
-  opacity: .8;
+  box-shadow: 0 0 50px black;
+  opacity: .9;
+  margin-top: 10px;
+  font-weight: bold;
   
 }
 .forecastcontainer {
