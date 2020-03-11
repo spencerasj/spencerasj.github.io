@@ -141,6 +141,9 @@ main {
   margin: 0 auto;
   background-color: #E1F4F3;
 }
+#preston-main {
+  background-color: white;
+}
 h3 {
   font-family: 'Shadows Into Light', cursive;
   color: #333333;
@@ -279,14 +282,14 @@ div #welText {
   
 }*/
 .weathersummary {
-  flex-direction: row;
-  position: relative;
+  display: inline-block;
+  position: absolute;
   top: 25px;
   left: 50px;
   padding: 1.5rem;
   box-shadow: 0 0 30px black;
   opacity: .8;
-  max-width: 175px;
+  
 }
 .forecastcontainer {
   display: none;
