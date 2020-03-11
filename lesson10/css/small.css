@@ -287,7 +287,7 @@ div #welText {
   position: absolute;
   left: 15px;
   padding: 1.5rem;
-  box-shadow: 0 0 50px black;
+  box-shadow: 0 0 20px black;
   opacity: .9;
   margin-top: 10px;
   font-weight: bold;
