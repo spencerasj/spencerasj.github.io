@@ -6,7 +6,8 @@
         padding-left: 125px;
     }
     .weathersummary{
-        position: absolute;
+        margin-top: 35px;
+        margin-left: 50px;
     }
     #gridcontainer {
         display: grid;
