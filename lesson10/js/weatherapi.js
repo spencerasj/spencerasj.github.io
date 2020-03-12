@@ -8,9 +8,12 @@ fetch(apiURL)
         document.getElementById('current-temp').textContent = ((((jsObject.list[i].main.temp) - 273.15) * 1.8 + 32).toFixed(2));
     }   
     for (let i = 0; i < jsObject.list.length; i++ ) {    
-        const imagesrc = 'https://openweathermap.org/img/w/' + jsObject.weather[i].icon + '.png';  // note the concatenation
+        let imagelink = 'https://openweathermap.org/img/wn/${jsObject.list[i].weather[0].icon}@2x.png';  // note the concatenation
         const desc = jsObject.weather[i].description;  // note how we reference the weather array
-        document.getElementById('imagesrc').textContent = imagesrc;  // informational specification only
-        document.getElementById('icon').setAttribute('src', imagesrc);  // focus on the setAttribute() method
+        document.getElementById('imagesrc').textContent = imagelink;  // informational specification only
+        document.getElementById('icon').setAttribute('src', imagelink);  // focus on the setAttribute() method
         document.getElementById('icon').setAttribute('alt', desc);
 }});
+/*let imagelink=`http://openweathermap.org/img/wn/${forecastObject.list[i].weather[0].icon}@2x.png`;
+
+   document.getElementById(imageid).setAttribute('src', imagelink);*/
