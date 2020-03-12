@@ -5,6 +5,9 @@
     h3 {
         padding-left: 125px;
     }
+    #weathersummary{
+        position: absolute;
+    }
     #gridcontainer {
         display: grid;
         grid-template-columns: auto auto;
