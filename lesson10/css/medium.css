@@ -5,7 +5,7 @@
     h3 {
         padding-left: 125px;
     }
-    #weathersummary{
+    .weathersummary{
         position: absolute;
     }
     #gridcontainer {
