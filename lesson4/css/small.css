@@ -44,6 +44,9 @@ h3 {
   font-size: xx-large;
   font-weight: bold;
 }
+main {
+  max-width: 100%;
+}
 .navigation {
   margin: 0 auto;
   background-color: #E1F4F3;
@@ -110,6 +113,7 @@ footer {
     justify-content:center;
     color: white;
     font-family: 'Shadows Into Light', cursive;
+    max-width: 100%;
 }
 
 footer p a {
