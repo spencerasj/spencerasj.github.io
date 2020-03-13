@@ -3,7 +3,9 @@
     nav ul li a {
         padding: .6rem 1rem;
     }
-
+header img {
+    width: 10%;
+}
 main {
     margin-right: 248px;
     margin-left: 248px;
