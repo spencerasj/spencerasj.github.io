@@ -1,7 +1,13 @@
 @media only screen and (min-width: 63em) {
-   
-nav ul li a {
-    padding: .6rem 1rem;
+
+    nav ul li a {
+        padding: .6rem 1rem;
+    }
+
 }
 
+footer {
+    margin-right: 248px;
+    margin-left: 248px;
+    margin-top: 25px;
 }
