@@ -1,3 +1,4 @@
+var currentDate = new Date();
 var day = ["Sun", "Mon", "Tues", "Wed", "Thu", "Fri", "Sat"];
 for (i = 1; i < 6; i++) {
     if ([currentDate.getDay() + (i-1)] <= 6) {

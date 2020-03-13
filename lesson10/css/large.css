@@ -56,6 +56,22 @@ form input.submitButton  {
     font-weight: bold;
     margin-top: 0px;
 }
+/*<-----------------------------------------------------------5day forecast table-------------------------------------->*/
+table {
+    font-family: 'Shadows Into Light', cursive;
+    text-align: center;  
+    
+}
+table, tr, td {
+    border: 1px solid #333333;
+    padding: 5px;
+    
+}
+
+
+
+
+/*------------------------------------------------------------end forecast table--------------------------------------------------------*/
 .forecastcontainer {
     display: flex;
     flex-direction: row;
