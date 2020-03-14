@@ -93,8 +93,8 @@
         border: 2px solid #333333;
     }
     #temp1, #temp2, #temp3, #temp4, #temp5 {
-        height: 50px;
-        width: 50px;
+        height: 150px;
+        width: 150px;
     }
     #data1, #data2, #data3, #data4, #data5 {
         font-size: xx-large;
