@@ -9,8 +9,8 @@ fetch(forecastAPI)
             if (day.dt_txt.includes("18:00:00")) {
 
                 const f = (day.main.temp);
-                var fahrenheit = f.toFixed(0);
-                document.getElementById("data" + day_count).textContent = fahrenheit;
+                var fahrenheit = f
+                document.getElementById("data" + day_count).textContent = ((fahrenheit - 273.15) * 1.8 + 32).toFixed(0);
                 const imagesrc = 'https://openweathermap.org/img/w/' + day.weather[0].icon + '.png'; 
                 console.log(imagesrc);
                 const desc = day.weather[0].description; 
