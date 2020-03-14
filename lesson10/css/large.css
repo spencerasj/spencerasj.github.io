@@ -82,7 +82,7 @@
     }
 
     th {
-        font-size: large;
+        font-size: xx-large;
         background-color: #E1F4F3;
     }
 
@@ -98,6 +98,7 @@
     }
     #data1, #data2, #data3, #data4, #data5 {
         font-size: xx-large;
+        font-weight: bold;
     }
 
 
