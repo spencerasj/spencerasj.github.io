@@ -3,160 +3,198 @@
         width: 5%;
         padding: 8px
     }
- h1 {
-     font-size: 5rem;
- }   
-    nav ul li a {
-    padding: .6rem 1rem;
+
+    h1 {
+        font-size: 5rem;
     }
-.weathersummary {
+
+    nav ul li a {
+        padding: .6rem 1rem;
+    }
+
+    .weathersummary {
         position: absolute;
     }
-.heropic img{
-    max-width: 100%;
-}
-   
 
-/*-----------------------------------homepage large------------------------------------>*/
-#homecontainer div.cards {
-    display: grid;
-    grid-template-columns: 33% 33% 33%;
-    } 
-    #homecontainer div.cards section h3  {
-        grid-column-start: 1;
-        grid-column-end: 4; 
+    .heropic img {
+        max-width: 100%;
     }
- /*-------------------------------  homepage large end-------------------------------->*/
-form fieldset {
-    max-width: 30%;
-    margin-left: 400px;
-}
-form label.sbs{
-   padding: .4rem 0;
-}
-form input.submitButton  {
-    margin-left: 500px;
-}
-#gridcontainer {
-    display: grid;
-    grid-template-columns: auto auto auto;
-}   
-.griditem {
-    padding: 15px;
-    border-style: solid;
-    border-color:  #706c61;
-}
-.griditem:hover {
-    box-shadow: 0 0 50px #333;
-}
-.gridtext {
-    font-family: 'Shadows Into Light', cursive;
-    color: #706c61;
-    font-size: large;
-    font-weight: bold;
-    margin-top: 0px;
-}
-/*<-----------------------------------------------------------5day forecast table-------------------------------------->*/
-table {
-    font-family: 'Shadows Into Light', cursive;
-    text-align: center;  
-    
-}
-table, th, tr, td {
-    border: 1px solid #333333;
-    padding: 5px;
-    
-}
 
 
+    /*-----------------------------------homepage large------------------------------------>*/
+    #homecontainer div.cards {
+        display: grid;
+        grid-template-columns: 33% 33% 33%;
+    }
+
+    #homecontainer div.cards section h3 {
+        grid-column-start: 1;
+        grid-column-end: 4;
+    }
+
+    /*-------------------------------  homepage large end-------------------------------->*/
+    form fieldset {
+        max-width: 30%;
+        margin-left: 400px;
+    }
+
+    form label.sbs {
+        padding: .4rem 0;
+    }
+
+    form input.submitButton {
+        margin-left: 500px;
+    }
+
+    #gridcontainer {
+        display: grid;
+        grid-template-columns: auto auto auto;
+    }
+
+    .griditem {
+        padding: 15px;
+        border-style: solid;
+        border-color: #706c61;
+    }
+
+    .griditem:hover {
+        box-shadow: 0 0 50px #333;
+    }
+
+    .gridtext {
+        font-family: 'Shadows Into Light', cursive;
+        color: #706c61;
+        font-size: large;
+        font-weight: bold;
+        margin-top: 0px;
+    }
+
+    /*<-----------------------------------------------------------5day forecast table-------------------------------------->*/
+    #forecast {
+        display: contents;
+    }
+
+    table {
+        font-family: 'Shadows Into Light', cursive;
+        text-align: center;
+        width: 815px;
+        height: 300px;
+    }
+
+    th {
+        font-size: large;
+        background-color: #E1F4F3;
+    }
+
+    table,
+    th,
+    tr,
+    td {
+        border: 2px solid #333333;
+    }
+    #temp1, #temp2, #temp3, #temp4, #temp5 {
+        height: 50px;
+        width: 50px;
+    }
+    #data1, #data2, #data3, #data4, #data5 {
+        font-size: xx-large;
+    }
 
 
-/*------------------------------------------------------------end forecast table--------------------------------------------------------*/
-.forecastcontainer {
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    height: 150px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    
-}
-.fcheader {
-    display:flex;
-    flex-direction: row;
-    background-color: #333333;
-    height: 40px;
-    
-}
-.fcbox {
-    display: flex;
-    flex-direction: column;
-    width: 165px;
-    height: 150px;
-    border:solid #706c61;
-    border-width: thin;
-}
- .day {
-    color: white;
-    text-align: center;
-    font-size: 25px;
-    padding: 5px;
-    font-family: 'Shadows Into Light', cursive;
-}
-.sunlogo {
-    width: 65px;
-    padding: 5px;
-    margin-top: 5px;
-    margin-left: 33px;
-}
-.temp {
-    font-size: x-large;
-    font-family: 'Shadows Into Light', cursive;
-    font-weight: bold;
-    text-align: center;
-    color: #333333;
+    /*------------------------------------------------------------end forecast table--------------------------------------------------------*/
+    .forecastcontainer {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        height: 150px;
+        margin-top: 10px;
+        margin-bottom: 10px;
 
-}
-.forecastcontainer{
-    display: flex;
-}
-.forecastdiv {
-    display: flex;
-    flex-direction: row;
-    font-family: 'Shadows Into Light', cursive;
-    color: #333333;
-    text-align: center;
-    font-size: xx-large;
-    font-weight: bolder;
-    padding-top: 10px;
-}
-p {
-    text-align: center;
-}
-#articlepic {
-    height: 162px;
-    width: 335px;
-}  
-.contactinfo {
-    display: flex;
-    flex-direction: column;
-}
-.smicon {
-    width: 35px;
-    height: 35px;
-  }
-#map {
-    height: 175px;
-    width: 325px;
-}
-footer {
-    margin-right: 248px;
-    margin-left: 248px;
-    margin-top: 25px;
-}
-}
+    }
 
+    .fcheader {
+        display: flex;
+        flex-direction: row;
+        background-color: #333333;
+        height: 40px;
 
-   
+    }
 
+    .fcbox {
+        display: flex;
+        flex-direction: column;
+        width: 165px;
+        height: 150px;
+        border: solid #706c61;
+        border-width: thin;
+    }
 
+    .day {
+        color: white;
+        text-align: center;
+        font-size: 25px;
+        padding: 5px;
+        font-family: 'Shadows Into Light', cursive;
+    }
+
+    .sunlogo {
+        width: 65px;
+        padding: 5px;
+        margin-top: 5px;
+        margin-left: 33px;
+    }
+
+    .temp {
+        font-size: x-large;
+        font-family: 'Shadows Into Light', cursive;
+        font-weight: bold;
+        text-align: center;
+        color: #333333;
+
+    }
+
+    .forecastcontainer {
+        display: flex;
+    }
+
+    .forecastdiv {
+        display: flex;
+        flex-direction: row;
+        font-family: 'Shadows Into Light', cursive;
+        color: #333333;
+        text-align: center;
+        font-size: xx-large;
+        font-weight: bolder;
+        padding-top: 10px;
+    }
+
+    p {
+        text-align: center;
+    }
+
+    #articlepic {
+        height: 162px;
+        width: 335px;
+    }
+
+    .contactinfo {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .smicon {
+        width: 35px;
+        height: 35px;
+    }
+
+    #map {
+        height: 175px;
+        width: 325px;
+    }
+
+    footer {
+        margin-right: 248px;
+        margin-left: 248px;
+        margin-top: 25px;
+    }
+}
