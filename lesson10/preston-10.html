@@ -56,11 +56,11 @@
         <div class="weatherbox">
           <div class="list">
             <span class="first">Currently:</span>
-            <span class="second">Cloudy</span>
+            <span id="currentdesc" class="second"></span>
           </div>
           <div class="list">
             <span class="first">High:</span>
-            <span id="tempFahr" class="second">42</span>F
+            <span id="tempFahr" class="second"></span>F
           </div>
           <div class="list">
             <span class="first">Wind Chill:</span>
@@ -68,11 +68,11 @@
           </div>
           <div class="list">
             <span class="first">Humidity:</span>
-            <span class="second">57%</span>
+            <span id="humidity" class="second"></span>%
           </div>
           <div class="list">
             <span class="first">Wind Speed:</span>
-            <span id="windSpeed" class="second">5</span>mph
+            <span id="windSpeed" class="second"></span>mph
           </div>
         </div>
       </div>
@@ -102,47 +102,7 @@
     </table>
   </section>
 
-    <div class="forecastdiv">5 Day Forecast</div>
-    <section class="forecast">
-
-      <div class="forecastcontainer">
-        <div class="fcheader">
-          <div class=fcbox>
-            <span class="day">Monday</span>
-            <img class="sunlogo" src="images/sunicon.png" alt="picture of a sun">
-            <span class="temp">65°F</span>
-          </div>
-        </div>
-        <div class="fcheader">
-          <div class=fcbox>
-            <span class="day">Tuesday</span>
-            <img class="sunlogo" src="images/sunicon.png" alt="picture of a sun">
-            <span class="temp">69°F</span>
-          </div>
-        </div>
-        <div class="fcheader">
-          <div class=fcbox>
-            <span class="day">Wednesday</span>
-            <img class="sunlogo" src="images/sunicon.png" alt="picture of a sun">
-            <span class="temp">64°F</span>
-          </div>
-        </div>
-        <div class="fcheader">
-          <div class=fcbox>
-            <span class="day">Thursday</span>
-            <img class="sunlogo" src="images/sunicon.png" alt="picture of a sun">
-            <span class="temp">65°F</span>
-          </div>
-        </div>
-        <div class="fcheader">
-          <div class=fcbox>
-            <span class="day">Friday</span>
-            <img class="sunlogo" src="images/sunicon.png" alt="picture of a sun">
-            <span class="temp">67°F</span>
-          </div>
-        </div>
-      </div>
-    </section>
+    
 
     <div class="article">Article</div>
     <section class="sec1">
@@ -189,6 +149,7 @@
     <script src="js/windchill.js"></script>
     <script src="js/forecast.js"></script>
     <script src="js/forecastapi.js"></script>
+    <script src="js/summary.js"></script>
   </footer>
 </body>
 
