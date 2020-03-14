@@ -367,9 +367,11 @@ div #welText {
 .rightcol {
   flex: 1;
 }
+
 #forecast {
   display: none;
 }
+
 .forecastdiv {
   display: none;
 }

@@ -192,7 +192,7 @@
         width: 325px;
     }
     .sec2 {
-        display: contents;
+        display: flex;
     }
 
     footer {
