@@ -10,5 +10,4 @@ fetch(apiURL)
       document.getElementById('humidity').textContent = (jsObject.main.humidity);
       document.getElementById('windSpeed').textContent = (jsObject.wind.speed.toFixed(0));
     });
-
-    
+windchill();   

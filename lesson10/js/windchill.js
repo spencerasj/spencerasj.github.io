@@ -10,4 +10,3 @@ function windchill() {
   document.getElementById('windchill').innerHTML = wc + "&#8457;"
 
 }
-windchill();
