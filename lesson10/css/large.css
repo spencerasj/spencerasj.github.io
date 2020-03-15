@@ -181,6 +181,10 @@
     .contactinfo {
         display: flex;
         flex-direction: column;
+       
+    }
+    #contact {
+        margin-bottom: 20px;
     }
 
     .smicon {
