@@ -191,6 +191,7 @@
     #map {
         height: 175px;
         width: 325px;
+        padding: 25px;
     }
     .sec2 {
         display: flex;

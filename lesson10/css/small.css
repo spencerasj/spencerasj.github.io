@@ -338,7 +338,7 @@ div #welText {
 
 #contact {
   font-family: 'Shadows Into Light', cursive;
-  color: white;
+  color: #333333;
   font-size: x-large;
 }
 
@@ -350,10 +350,16 @@ div #welText {
 
 .sec2 {
   display: none;
+  border: 2px solid #333333;
   background-color: #706c61;
-  border: thin;
+  
 }
-
+.sec2 .rightcol{
+  background-color:white;
+}
+.sec2 div{
+  border: 2px solid #333333;
+}
 .sec1 div,
 .sec2 div {
   padding: 10px;
@@ -399,13 +405,14 @@ p {
 .contactinfo {
   display: flex;
   flex-direction: column;
+  text-align: center;
 
 }
 
 .smicon {
   width: 35px;
   height: 35px;
-  background-color: #706c61;
+  
 }
 
 footer {
