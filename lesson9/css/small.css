@@ -104,12 +104,12 @@ h2 {
     display: block;
       
   }
-nav onclick {
+/* nav onclick {
   margin: .2rem 2%;
   background-color: transparent;
   border: none;
   font-size: 1.6rem;
-}
+} */
 nav ul{
     list-style-type: none;
     padding: 0;
