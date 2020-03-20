@@ -92,15 +92,60 @@
     td {
         border: 2px solid #333333;
     }
-    #temp1, #temp2, #temp3, #temp4, #temp5 {
+
+    #temp1,
+    #temp2,
+    #temp3,
+    #temp4,
+    #temp5 {
         height: 150px;
         width: 150px;
     }
-    #data1, #data2, #data3, #data4, #data5 {
+
+    #data1,
+    #data2,
+    #data3,
+    #data4,
+    #data5 {
         font-size: xx-large;
         font-weight: bold;
     }
 
+    #fishtemp1,
+    #fishtemp2,
+    #fishtemp3,
+    #fishtemp4,
+    #fishtemp5 {
+        height: 150px;
+        width: 150px;
+    }
+
+    #fishdata1,
+    #fishdata2,
+    #fishdata3,
+    #fishdata4,
+    #fishdata5 {
+        font-size: xx-large;
+        font-weight: bold;
+    }
+
+    #sstemp1,
+    #sstemp2,
+    #sstemp3,
+    #sstemp4,
+    #sstemp5 {
+        height: 150px;
+        width: 150px;
+    }
+
+    #ssdata1,
+    #ssdata2,
+    #ssdata3,
+    #ssdata4,
+    #ssdata5 {
+        font-size: xx-large;
+        font-weight: bold;
+    }
 
     /*------------------------------------------------------------end forecast table--------------------------------------------------------*/
     .forecastcontainer {
@@ -181,8 +226,9 @@
     .contactinfo {
         display: flex;
         flex-direction: column;
-       
+
     }
+
     #contact {
         margin-bottom: 20px;
     }
@@ -197,6 +243,7 @@
         width: 325px;
         padding: 25px;
     }
+
     .sec2 {
         display: flex;
     }
