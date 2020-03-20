@@ -12,6 +12,15 @@
         padding: .6rem 1rem;
     }
 
+    .weathersummary {
+        position: absolute;
+    }
+
+    .heropic img {
+        max-width: 100%;
+    }
+
+
     /*-----------------------------------homepage large------------------------------------>*/
     #homecontainer div.cards {
         display: grid;
@@ -21,20 +30,6 @@
     #homecontainer div.cards section h3 {
         grid-column-start: 1;
         grid-column-end: 4;
-    }
-    #homecontainer div.cards section {
-        display: flex;
-        flex-direction: column;
-        /* grid-column-start: 1;
-        grid-column-end: 3; 
-        padding: 0; */
-    }
-    #homecontainer div.cards section:nth-child(2) {
-        display: flex;
-        flex-direction: column;
-        /* grid-column-start: 1;
-        grid-column-end: 3; 
-        padding: 0; */
     }
 
     /*-------------------------------  homepage large end-------------------------------->*/
@@ -74,6 +69,40 @@
         margin-top: 0px;
     }
 
+    /*<-----------------------------------------------------------5day forecast table-------------------------------------->*/
+    #forecast {
+        display: contents;
+    }
+
+    table {
+        font-family: 'Shadows Into Light', cursive;
+        text-align: center;
+        width: 815px;
+        height: 300px;
+    }
+
+    th {
+        font-size: xx-large;
+        background-color: #E1F4F3;
+    }
+
+    table,
+    th,
+    tr,
+    td {
+        border: 2px solid #333333;
+    }
+    #temp1, #temp2, #temp3, #temp4, #temp5 {
+        height: 150px;
+        width: 150px;
+    }
+    #data1, #data2, #data3, #data4, #data5 {
+        font-size: xx-large;
+        font-weight: bold;
+    }
+
+
+    /*------------------------------------------------------------end forecast table--------------------------------------------------------*/
     .forecastcontainer {
         display: flex;
         flex-direction: row;
@@ -152,6 +181,10 @@
     .contactinfo {
         display: flex;
         flex-direction: column;
+       
+    }
+    #contact {
+        margin-bottom: 20px;
     }
 
     .smicon {
@@ -162,6 +195,10 @@
     #map {
         height: 175px;
         width: 325px;
+        padding: 25px;
+    }
+    .sec2 {
+        display: flex;
     }
 
     footer {

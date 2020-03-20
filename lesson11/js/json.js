@@ -11,7 +11,6 @@ fetch(requestURL)
     for (let i = 0; i < towns.length; i++ ) {
         if (towns[i].name === "Fish Haven" || towns[i].name == "Preston" || towns[i].name == "Soda Springs") {
         let card = document.createElement('section');
-        let div = document.createElement('div');
         let name = document.createElement('h3');
         let motto = document.createElement('h4');
         let yearFounded = document.createElement('p');
@@ -24,12 +23,11 @@ fetch(requestURL)
         population.textContent = "Poulation: " + towns[i].currentPopulation;
         rainfall.textContent = "Annual Rainfall: " + towns[i].averageRainfall;
         image.setAttribute('src', 'images/' + towns[i].photo);
-        div.appendChild(name);
-        div.appendChild(motto);
-        div.appendChild(yearFounded);
-        div.appendChild(population);
-        div.appendChild(rainfall);
-        card.appendChild(div);
+        card.appendChild(name);
+        card.appendChild(motto);
+        card.appendChild(yearFounded);
+        card.appendChild(population);
+        card.appendChild(rainfall);
         card.appendChild(image);
         
             
