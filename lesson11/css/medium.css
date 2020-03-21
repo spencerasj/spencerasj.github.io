@@ -2,7 +2,9 @@
     header img {
         width: 10%;
     }
-    
+    #bbq {
+        font-size: medium;
+    }
     .weathersummary{
         margin-top: 35px;
         margin-left: 50px;
