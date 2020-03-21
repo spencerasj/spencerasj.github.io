@@ -35,7 +35,7 @@
     }
     #homecontainer div.cards section div{
         justify-content: center;
-        align-content: center;
+        /* align-content: center; */
         width: 50%;
         /* grid-column-start: 1;
         grid-column-end: 3; 

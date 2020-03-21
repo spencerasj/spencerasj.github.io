@@ -246,9 +246,9 @@ div #welText {
   grid-gap: 10px;
   justify-content: center;
   text-align: center;
-  border: 1px solid grey;
+
   padding: 10px;
-  box-shadow: 0 0 20px #000;
+
   background-color: white;
   max-width: 100%;
 }
@@ -353,14 +353,17 @@ div #welText {
   display: none;
   border: 2px solid #333333;
   background-color: #706c61;
-  
+
 }
-.sec2 .rightcol{
-  background-color:white;
+
+.sec2 .rightcol {
+  background-color: white;
 }
-.sec2 div{
+
+.sec2 div {
   border: 2px solid #333333;
 }
+
 .sec1 div,
 .sec2 div {
   padding: 10px;
@@ -413,7 +416,7 @@ p {
 .smicon {
   width: 35px;
   height: 35px;
-  
+
 }
 
 footer {
