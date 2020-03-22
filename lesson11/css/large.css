@@ -236,10 +236,14 @@
         height: 162px;
         width: 335px;
     }
+    .sec2 .rightcol{
+        background-color: #E1F4F3;
+    }
 
     .contactinfo {
         display: flex;
         flex-direction: column;
+        
 
     }
 
