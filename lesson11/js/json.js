@@ -18,12 +18,15 @@ fetch(requestURL)
         let population = document.createElement('p');
         let rainfall = document.createElement('p');
         let image = document.createElement('img');
+        
+
         name.textContent = towns[i].name;
         motto.textContent = towns[i].motto;
         yearFounded.textContent = "Year Founded: " + towns[i].yearFounded;
         population.textContent = "Poulation: " + towns[i].currentPopulation;
         rainfall.textContent = "Annual Rainfall: " + towns[i].averageRainfall;
         image.setAttribute('src', 'images/' + towns[i].photo);
+        
         div.appendChild(name);
         div.appendChild(motto);
         div.appendChild(yearFounded);

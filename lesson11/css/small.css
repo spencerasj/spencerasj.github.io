@@ -227,7 +227,14 @@ form input.submitButton {
   width: 96%;
   max-width: 20rem;
 }
+#thankyou {
+  height: 500px;
 
+}
+#thankyoup {
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 50px;
+}
 /*------------------------------home page---------------------------------------*/
 #homepic {
   max-width: 100%;

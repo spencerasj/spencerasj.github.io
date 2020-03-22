@@ -9,6 +9,7 @@ fetch(apiURL)
         document.getElementById('tempFahr').textContent = ((((jsObject.main.temp_max) - 273.15) * 1.8 + 32).toFixed(0));
         document.getElementById('humidity').textContent = (jsObject.main.humidity);
         document.getElementById('windSpeed').textContent = (jsObject.wind.speed.toFixed(0));
+        
     });
 
 const fishapiURL = "https://api.openweathermap.org/data/2.5/weather?zip=83287,us&APPID=97617174116da9f8f4bdafa9bc37bff2";
