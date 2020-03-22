@@ -345,7 +345,7 @@ div #welText {
 }
 .events {
   font-family: 'Shadows Into Light', cursive;
-  
+  padding: 5px;
   border-style: double;
   margin-top: 20px;
   font-size: large;
@@ -410,14 +410,21 @@ div #welText {
   font-weight: bolder;
   padding-top: 10px;
 }
+.articlep {
+  font-family: 'Shadows Into Light', cursive;
+  color: #333333;
+  font-size: large;
+  margin: 5px;
+
+}
 
 p {
   text-align: center;
 }
 
 #articlepic {
-  height: 162px;
-  width: 335px;
+  height: 350px;
+  width: 400px;
 }
 
 .contactinfo {
