@@ -343,7 +343,14 @@ div #welText {
 .forecastcontainer {
   display: none;
 }
-
+.events {
+  font-family: 'Shadows Into Light', cursive;
+  
+  border-style: double;
+  margin-top: 20px;
+  font-size: large;
+  font-weight: bold;
+}
 #contact {
   font-family: 'Shadows Into Light', cursive;
   color: #333333;
