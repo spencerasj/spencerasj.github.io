@@ -1,0 +1,22 @@
+body {
+    background-color: #DEE3E2;
+}
+.header {
+    max-width: 100%;
+}
+#headerimg {
+    max-width: 100%;
+}
+#companyname {
+    font-family: 'Gochi Hand', cursive;
+}
+#motto {
+    font-family: 'Comic Neue', cursive;
+}
+.navigation{
+    max-width: 100%;
+    background-color: #18B0B0;
+    font-family: 'Comic Neue', cursive;
+}
+
+
