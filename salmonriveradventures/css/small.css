@@ -24,16 +24,16 @@ body {
     font-family: 'Comic Neue', cursive;
 }
 
-#homecontainer {
+#welcomecontainer {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
     grid-gap: 10px;
 }
 
-#home-a {
-    grid-column-start: 1fr;
-    grid-column-end: 2.5fr;
+#welcome-a {
+    grid-column-start: 1;
+    grid-column-end: 2;
     border: 2px solid black;
 }
 
@@ -41,30 +41,32 @@ body {
     font-family: 'Comic Neue', cursive;
 }
 
-#home-b {
-    grid-column-start: 2.5fr;
-    grid-column-end: 4fr;
-    border: 2px solid black;
-}
-
-#home-c {
-    grid-column-start: 1fr;
-    grid-column-end: 2fr;
-    border: 2px solid black;
-}
-
-#home-d {
+#welcome-b {
     grid-column-start: 2fr;
     grid-column-end: 3fr;
     border: 2px solid black;
 }
-
-#home-e {
-    grid-column-start: 3fr;
-    grid-column-end: 4fr;
+#activitycontainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-gap: 10px;
+}
+#activity-a {
+    grid-column-start: 1;
+    grid-column-end: 2;
     border: 2px solid black;
 }
-
+#activity-b {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    border: 2px solid black;
+}
+#activity-c {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    border: 2px solid black;
+}
 .activityheading {
     font-family: 'Gochi Hand', cursive;
 }
