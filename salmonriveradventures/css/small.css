@@ -28,18 +28,16 @@ body {
     color: white;
 }
 
-#welcomecontainer {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
+#homecontainer {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: auto;
     background-color: white;
     margin: 30px;
 }
 
-#welcome-a {
-    width: 30%;
-    height: 100%;
-    border: 2px solid black;
+#home-a {
+   border: 2px solid black;
 }
 
 #welcomemessage {
@@ -49,32 +47,38 @@ body {
     margin: none;
 }
 
-#welcome-b {
-    width: 70%;
-    height: 100%;
+#home-b {
+    
     border: 2px solid black;
     padding: 15px;
 }
 #mainpic{
     width: 100%;
 }
-#activitycontainer {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    background-color: white;
-}
-#activity-a {
+
+#home-c {
     border: 2px solid black;
-    width: 33%
+    
 }
-#activity-b {
+#home-d {
    border: 2px solid black;
-   width: 33%
+  
 }
-#activity-c {
+#home-e {
     border: 2px solid black;
-    width: 33%
+   
+}
+#home-f {
+    border: 2px solid black;
+   
+}
+#home-g {
+    border: 2px solid black;
+   
+}
+#home-h {
+    border: 2px solid black;
+   
 }
 .activityheading {
     background-color: #DE7119;
@@ -83,6 +87,9 @@ body {
 
 .activitytext {
     font-family: 'Comic Neue', cursive;
+}
+.activitypic {
+    max-width: 100%;
 }
 
 footer {
