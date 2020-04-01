@@ -4,6 +4,7 @@ body {
 
 .header {
     max-width: 100%;
+    background-color: #116979;
 }
 
 #headerimg {
@@ -12,7 +13,7 @@ body {
 
 #companyname {
     font-family: 'Gochi Hand', cursive;
-    color: #116979;
+    color: white;
 }
 
 #motto {
@@ -22,22 +23,20 @@ body {
 
 .navigation {
     max-width: 100%;
-    background-color: #18B0B0;
+    background-color: #DE7119;
     font-family: 'Comic Neue', cursive;
     color: white;
 }
 
 #welcomecontainer {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: auto;
-    grid-gap: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     background-color: white;
 }
 
 #welcome-a {
-    grid-column-start: 1;
-    grid-column-end: 2;
+    
     border: 2px solid black;
 }
 
@@ -47,30 +46,22 @@ body {
 }
 
 #welcome-b {
-    grid-column-start: 2fr;
-    grid-column-end: 3fr;
+    
     border: 2px solid black;
 }
 #activitycontainer {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: auto;
-    grid-gap: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     background-color: white;
 }
 #activity-a {
-    grid-column-start: 1;
-    grid-column-end: 2;
     border: 2px solid black;
 }
 #activity-b {
-    grid-column-start: 2;
-    grid-column-end: 3;
-    border: 2px solid black;
+   border: 2px solid black;
 }
 #activity-c {
-    grid-column-start: 3;
-    grid-column-end: 4;
     border: 2px solid black;
 }
 .activityheading {
