@@ -3,12 +3,12 @@ body {
 }
 
 .header {
-    max-width: 100%;
+    width: 100%;
     background-color: #116979;
 }
 
 #headerimg {
-    max-width: 100%;
+    width: 100%;
 }
 
 #companyname {
@@ -22,7 +22,7 @@ body {
 }
 
 .navigation {
-    max-width: 100%;
+    width: 100%;
     background-color: #DE7119;
     font-family: 'Comic Neue', cursive;
     color: white;
@@ -36,7 +36,8 @@ body {
 }
 
 #welcome-a {
-    
+    width: 50%;
+    height: 100%;
     border: 2px solid black;
 }
 
@@ -46,8 +47,12 @@ body {
 }
 
 #welcome-b {
-    
+    width: 50%;
+    height: 100%;
     border: 2px solid black;
+}
+#mainpic{
+    width: 100%;
 }
 #activitycontainer {
     display: flex;
@@ -57,12 +62,15 @@ body {
 }
 #activity-a {
     border: 2px solid black;
+    width: 33%
 }
 #activity-b {
    border: 2px solid black;
+   width: 33%
 }
 #activity-c {
     border: 2px solid black;
+    width: 33%
 }
 .activityheading {
     background-color: #DE7119;
