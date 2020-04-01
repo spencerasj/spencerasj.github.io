@@ -30,7 +30,7 @@ body {
 
 #welcomecontainer {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
     background-color: white;
     margin: 30px;
@@ -60,7 +60,7 @@ body {
 }
 #activitycontainer {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
     background-color: white;
 }
