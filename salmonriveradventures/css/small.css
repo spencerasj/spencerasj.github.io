@@ -9,15 +9,22 @@ body {
 
 #headerimg {
     width: 100%;
+    height: 300px;
 }
 
 #companyname {
     font-family: 'Gochi Hand', cursive;
     color: white;
+    font-size: 50px;
+    margin: 0px;
+    
 }
 
 #motto {
     font-family: 'Comic Neue', cursive;
+    font-size: 30px;
+    margin: 0px;
+    color: white;
     
 }
 
@@ -26,11 +33,54 @@ body {
     background-color: #DE7119;
     font-family: 'Comic Neue', cursive;
     color: white;
-}
+    list-style: none;
+    text-align: center;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .navigation li {
+    display: none;
+    color: white;
+  }
+  
+  .navigation li:first-child {
+    display: block;
+  }
+
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    display: inline;
+  }
+  
+  nav ul li a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    font-size: x-large
+  }
+  
+  nav ul li.active a {
+    background-color: #E1F4F3;
+    color: #333333;
+    font-size: x-large
+  }
+  
+  nav ul li a:hover {
+    background-color: #E1F4F3;
+    color: #333333;
+  }
+.responsive li {
+    display: block;
+  }
 
 #homecontainer {
     display: grid;
-    grid-template-columns: 100%;
+    grid-template-columns: auto;
     grid-template-rows: auto;
     background-color: white;
     margin: 30px;
@@ -108,3 +158,9 @@ footer {
 #info {
     font-family: 'Comic Neue', cursive;
 }
+/*----- Clearfix: Force an Element not to collapse -----*/
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }

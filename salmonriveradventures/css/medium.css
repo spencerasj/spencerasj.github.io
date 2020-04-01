@@ -1,12 +1,38 @@
 @media only screen and (min-width: 37.5em) {
     #homecontainer {
         display: grid;
-        grid-template-columns: 50% 50%;
+        grid-template-columns: auto auto;
         grid-template-rows: auto;
         background-color: white;
         margin: 30px;
     }
 
-
-
-}
+    nav onclick {
+        display: none;
+    }
+    .responsive li {
+        display: block;
+      }
+    .navigation {
+        flex-direction: row;
+    }  
+    
+    .navigation li a {
+        display: flex; 
+        flex-direction: row;
+     }
+      .navigation li:first-child {
+         display: none;
+     }
+ 
+     .navigation li {
+         display: block;
+         flex: 1 1 100%;
+     }
+     nav ul{
+         margin-left: 2%;
+     }
+     nav ul li {
+         float: left;
+     }
+    }
