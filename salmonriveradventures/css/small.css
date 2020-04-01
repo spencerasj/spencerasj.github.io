@@ -12,16 +12,19 @@ body {
 
 #companyname {
     font-family: 'Gochi Hand', cursive;
+    color: #116979;
 }
 
 #motto {
     font-family: 'Comic Neue', cursive;
+    
 }
 
 .navigation {
     max-width: 100%;
     background-color: #18B0B0;
     font-family: 'Comic Neue', cursive;
+    color: white;
 }
 
 #welcomecontainer {
@@ -29,6 +32,7 @@ body {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto;
     grid-gap: 10px;
+    background-color: white;
 }
 
 #welcome-a {
@@ -39,6 +43,7 @@ body {
 
 #welcomemessage {
     font-family: 'Comic Neue', cursive;
+    color: #116979;
 }
 
 #welcome-b {
@@ -51,6 +56,7 @@ body {
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: auto;
     grid-gap: 10px;
+    background-color: white;
 }
 #activity-a {
     grid-column-start: 1;
@@ -68,6 +74,7 @@ body {
     border: 2px solid black;
 }
 .activityheading {
+    background-color: #DE7119;
     font-family: 'Gochi Hand', cursive;
 }
 
