@@ -83,6 +83,7 @@ body {
 .activityheading {
     background-color: #DE7119;
     font-family: 'Gochi Hand', cursive;
+    margin: 0px;
 }
 
 .activitytext {
