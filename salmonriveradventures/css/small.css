@@ -1,22 +1,90 @@
 body {
     background-color: #DEE3E2;
 }
+
 .header {
     max-width: 100%;
 }
+
 #headerimg {
     max-width: 100%;
 }
+
 #companyname {
     font-family: 'Gochi Hand', cursive;
 }
+
 #motto {
     font-family: 'Comic Neue', cursive;
 }
-.navigation{
+
+.navigation {
     max-width: 100%;
     background-color: #18B0B0;
     font-family: 'Comic Neue', cursive;
 }
 
+#homecontainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 10px;
+}
 
+#home-a {
+    grid-column-start: 1fr;
+    grid-column-end: 2.5fr;
+    border: 2px solid black;
+}
+
+#welcomemessage {
+    font-family: 'Comic Neue', cursive;
+}
+
+#home-b {
+    grid-column-start: 2.5fr;
+    grid-column-end: 4fr;
+    border: 2px solid black;
+}
+
+#home-c {
+    grid-column-start: 1fr;
+    grid-column-end: 2fr;
+    border: 2px solid black;
+}
+
+#home-d {
+    grid-column-start: 2fr;
+    grid-column-end: 3fr;
+    border: 2px solid black;
+}
+
+#home-e {
+    grid-column-start: 3fr;
+    grid-column-end: 4fr;
+    border: 2px solid black;
+}
+
+.activityheading {
+    font-family: 'Gochi Hand', cursive;
+}
+
+.activitytext {
+    font-family: 'Comic Neue', cursive;
+}
+
+footer {
+    background-color: #18B0B0;
+}
+
+#contactinfo {
+    font-family: 'Gochi Hand', cursive;
+}
+
+#address {
+    font-family: 'Comic Neue', cursive;
+}
+
+#info {
+    font-family: 'Comic Neue', cursive;
+}
