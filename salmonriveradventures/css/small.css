@@ -33,10 +33,11 @@ body {
     flex-direction: row;
     flex-wrap: wrap;
     background-color: white;
+    margin: 30px;
 }
 
 #welcome-a {
-    width: 50%;
+    width: 3%;
     height: 100%;
     border: 2px solid black;
 }
@@ -44,12 +45,15 @@ body {
 #welcomemessage {
     font-family: 'Comic Neue', cursive;
     color: #116979;
+    padding: 15px;
+    margin: none;
 }
 
 #welcome-b {
-    width: 50%;
+    width: 70%;
     height: 100%;
     border: 2px solid black;
+    padding: 15px;
 }
 #mainpic{
     width: 100%;
