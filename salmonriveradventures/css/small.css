@@ -66,12 +66,12 @@ img {
     display: block;
       
   }
-nav onclick {
+/*nav onclick {
   margin: .2rem 2%;
   background-color: transparent;
   border: none;
   font-size: 1.6rem;
-}
+}*/
 nav ul{
     list-style-type: none;
     padding: 0;
@@ -84,13 +84,13 @@ nav ul li a {
   padding: .8rem 2%;
   text-decoration: none;
   color: white;
-  border-top: 1px solid #333333;
+  border-top: 1px solid white;
   
 }
 
 nav ul li.active a {
   background-color:  white;
-  color:  #18B0B0;
+  color: #116979;
 }
 nav ul li a:hover {
   background-color:  #18B0B0;
@@ -126,6 +126,7 @@ nav ul li a:hover {
 }
 #mainpic{
     width: 100%;
+    border: 2px solid #DEE3E2;
 }
 
 #home-c {
@@ -145,8 +146,8 @@ nav ul li a:hover {
     
     font-family: 'Gochi Hand', cursive;
     color: #116979;
-    padding: 10px;
-    margin: 10px;
+    padding-top: 20px;
+    margin: 0px;
 }
 
 .activitytext {
@@ -154,6 +155,7 @@ nav ul li a:hover {
 }
 .activitypic {
     max-width: 100%;
+    border: 2px solid #DEE3E2;
 }
 
 footer {
