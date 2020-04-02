@@ -151,6 +151,7 @@ nav ul li a:hover {
 }
 
 .activitytext {
+    margin: 0;
     font-family: 'Comic Neue', cursive;
 }
 .activitypic {
