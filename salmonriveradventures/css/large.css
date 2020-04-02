@@ -17,4 +17,10 @@
 #welcomemessage {
     font-size: 30px;
     }
+.activityheading {
+    font-size: 25px;
+}
+.activitytext{
+    font-size: 18px;
+}
 }
