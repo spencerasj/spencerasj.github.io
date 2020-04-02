@@ -31,7 +31,7 @@ body {
 
 #motto {
     font-family: 'Comic Neue', cursive;
-    font-size: 15px;
+    font-size: 4vw;
     margin: 0px;
     color: white;
     
@@ -73,8 +73,8 @@ nav ul li a {
   display: block;
   padding: .8rem 2%;
   text-decoration: none;
-  color: #333333;
-  border-top:1px solid #333333;
+  color: white;
+  
 }
 
 nav ul li.active a {
@@ -82,7 +82,7 @@ nav ul li.active a {
   color: white;
 }
 nav ul li a:hover {
-  background-color: #E1F4F3;
+  background-color:  #DE7119;
 }
 
 .responsive li {
