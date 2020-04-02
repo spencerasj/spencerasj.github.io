@@ -167,16 +167,22 @@ footer {
 #contactinfo {
     font-family: 'Gochi Hand', cursive;
     margin: 0px;
+    padding-top: 15px;
+    padding-left: 15px;
+    font-size: 20px;
 
 }
 
 #address {
     font-family: 'Comic Neue', cursive;
     margin: 0px;
+    padding-left: 15px;
 }
 
 #info {
     font-family: 'Comic Neue', cursive;
+    padding-left: 15px;
+    padding-bottom: 15px;
 }
 
 .responsive li {
