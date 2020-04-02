@@ -7,6 +7,7 @@ img {
 }
 .header {
     width: 100%;
+    height: auto;
     background-color: #116979;
 }
 
@@ -26,7 +27,7 @@ img {
 #companyname {
     font-family: 'Gochi Hand', cursive;
     color: white;
-    font-size: 5vw;
+    font-size: 3vw;
     margin: 0px;
     padding-top: 20px;
     
@@ -34,7 +35,7 @@ img {
 
 #motto {
     font-family: 'Comic Neue', cursive;
-    font-size: 4vw;
+    font-size: 2vw;
     margin: 0px;
     color: white;
     
@@ -101,7 +102,7 @@ nav ul li a:hover {
 }
 
 #home-a {
-   border: 2px solid black;
+   border: 5px solid  #18B0B0;
    margin: 15px;
 }
 
@@ -114,7 +115,7 @@ nav ul li a:hover {
 
 #home-b {
     margin: 15px;
-    border: 2px solid black;
+    border: 5px solid  #18B0B0;
     padding: 15px;
 }
 #mainpic{
@@ -122,31 +123,31 @@ nav ul li a:hover {
 }
 
 #home-c {
-    border: 2px solid black;
+    border: 5px solid #DE7119;
     margin: 15px;
 }
 #home-d {
-   border: 2px solid black;
+    border: 5px solid #DE7119;
    margin: 15px;
 }
 #home-e {
-    border: 2px solid black;
+    border: 5px solid #DE7119;
     margin: 15px;
 }
 #home-f {
-    border: 2px solid black;
+    border: 5px solid #DE7119;
     margin: 15px;
 }
 #home-g {
-    border: 2px solid black;
+    border: 5px solid #DE7119;
     margin: 15px;
 }
 #home-h {
-    border: 2px solid black;
+    border: 5px solid #DE7119;
     margin: 15px;
 }
 .activityheading {
-    background-color: #DE7119;
+    background-color:  #18B0B0;
     font-family: 'Gochi Hand', cursive;
     margin: 0px;
 }
