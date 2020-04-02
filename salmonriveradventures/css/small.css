@@ -16,7 +16,7 @@ img {
     height: 300px;
 }*/
 #logo{
-    width: 7%;
+    width: 30%;
     float: left;
     padding-right: 15px;
     margin:10px;
@@ -27,7 +27,7 @@ img {
 #companyname {
     font-family: 'Gochi Hand', cursive;
     color: white;
-    font-size: 3vw;
+    font-size: 30px;
     margin: 0px;
     padding-top: 20px;
     
@@ -35,10 +35,14 @@ img {
 
 #motto {
     font-family: 'Comic Neue', cursive;
-    font-size: 2vw;
+    font-size: 15px;
     margin: 0px;
     color: white;
     
+}
+nav.clearfix {
+    width: 100%;
+    margin: 0px;
 }
 
 .navigation {
@@ -46,6 +50,7 @@ img {
     background-color: #DE7119;
     font-family: 'Comic Neue', cursive;
     color: white;
+    font-size: 15px;
     list-style: none;
     text-align: center;
     padding: 0;
@@ -149,7 +154,8 @@ nav ul li a:hover {
 .activityheading {
     background-color:  #18B0B0;
     font-family: 'Gochi Hand', cursive;
-    margin: 0px;
+    padding: 10px;
+    margin: 10px;
 }
 
 .activitytext {
