@@ -159,15 +159,19 @@ nav ul li a:hover {
 }
 
 footer {
-    background-color: #18B0B0;
+    background-color: #116979;
+    color: white;
 }
 
 #contactinfo {
     font-family: 'Gochi Hand', cursive;
+    margin: 0px;
+    
 }
 
 #address {
     font-family: 'Comic Neue', cursive;
+    margin: 0px;
 }
 
 #info {

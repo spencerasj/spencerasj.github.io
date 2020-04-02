@@ -10,8 +10,7 @@
     #home-a {
         grid-column-start: 1;
         grid-column-end: 4;
-        border: 5px solid #18B0B0;
-        margin: 15px;
+        
     }
 
     #home-b {
