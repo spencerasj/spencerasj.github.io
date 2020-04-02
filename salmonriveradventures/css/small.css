@@ -40,13 +40,14 @@ img {
     color: white;
     
 }
-nav.clearfix {
+/*nav.clearfix {
     width: 100%;
     margin: 0px;
-}
+}*/
 
 .navigation {
-    width: 100%;
+    margin: 0 auto;
+    /*width: 100%;*/
     background-color: #DE7119;
     font-family: 'Comic Neue', cursive;
     color: white;
@@ -83,20 +84,17 @@ nav ul li a {
   padding: .8rem 2%;
   text-decoration: none;
   color: white;
+  border-top: 1px solid #333333;
   
 }
 
 nav ul li.active a {
-  background-color:  #706c61;
-  color: white;
+  background-color:  white;
+  color:  #18B0B0;
 }
 nav ul li a:hover {
-  background-color:  #DE7119;
+  background-color:  #18B0B0;
 }
-
-.responsive li {
-    display: block;
-  }
 
 #homecontainer {
     display: grid;
@@ -166,7 +164,7 @@ footer {
 #contactinfo {
     font-family: 'Gochi Hand', cursive;
     margin: 0px;
-    
+
 }
 
 #address {
@@ -177,6 +175,10 @@ footer {
 #info {
     font-family: 'Comic Neue', cursive;
 }
+
+.responsive li {
+    display: block;
+  }
 /*----- Clearfix: Force an Element not to collapse -----*/
 .clearfix:after {
     content: "";
