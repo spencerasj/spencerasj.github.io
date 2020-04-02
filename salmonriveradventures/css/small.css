@@ -1,10 +1,12 @@
 body {
     background-color: #DEE3E2;
 }
+
 img {
     width: 100%;
     height: auto;
 }
+
 .header {
     width: 100%;
     height: auto;
@@ -15,22 +17,24 @@ img {
     width: 100%;
     height: 300px;
 }*/
-#logo{
+#logo {
     width: 30%;
     float: left;
     padding-right: 15px;
-    margin:10px;
+    margin: 10px;
 }
+
 #title {
-    width:80%
+    width: 80%
 }
+
 #companyname {
     font-family: 'Gochi Hand', cursive;
     color: white;
     font-size: 30px;
     margin: 0px;
     padding-top: 20px;
-    
+
 }
 
 #motto {
@@ -38,8 +42,9 @@ img {
     font-size: 15px;
     margin: 0px;
     color: white;
-    
+
 }
+
 /*nav.clearfix {
     width: 100%;
     margin: 0px;
@@ -57,43 +62,47 @@ img {
     padding: 0;
     display: flex;
     flex-direction: column;
-  }
-  
-  .navigation li {
+}
+
+.navigation li {
     display: none;
-  }
-  .navigation li:first-child {
+}
+
+.navigation li:first-child {
     display: block;
-      
-  }
+
+}
+
 /*nav onclick {
   margin: .2rem 2%;
   background-color: transparent;
   border: none;
   font-size: 1.6rem;
 }*/
-nav ul{
+nav ul {
     list-style-type: none;
     padding: 0;
     margin: 0;
     text-align: center;
     display: inline;
 }
+
 nav ul li a {
-  display: block;
-  padding: .8rem 2%;
-  text-decoration: none;
-  color: white;
-  border-top: 1px solid white;
-  
+    display: block;
+    padding: .8rem 2%;
+    text-decoration: none;
+    color: white;
+    border-top: 1px solid white;
+
 }
 
 nav ul li.active a {
-  background-color:  white;
-  color: #116979;
+    background-color: white;
+    color: #116979;
 }
+
 nav ul li a:hover {
-  background-color:  #18B0B0;
+    background-color: #18B0B0;
 }
 
 #homecontainer {
@@ -105,8 +114,8 @@ nav ul li a:hover {
 }
 
 #home-a {
-   border: 5px solid  #18B0B0;
-   margin: 15px;
+    border: 5px solid #18B0B0;
+    margin: 15px;
 }
 
 #welcomemessage {
@@ -115,35 +124,39 @@ nav ul li a:hover {
     padding: 15px;
     margin: none;
 }
+
 #home-a {
-    border: 5px solid  #18B0B0;
+    border: 5px solid #18B0B0;
     margin: 15px;
- }
+}
 
 #home-b {
-    
+
     padding: 15px;
 }
-#mainpic{
+
+#mainpic {
     width: 100%;
     border: 2px solid #DEE3E2;
 }
 
 #home-c {
-   
+
     margin: 15px;
 }
+
 #home-d {
-   
-   margin: 15px;
+
+    margin: 15px;
 }
+
 #home-e {
-    
+
     margin: 15px;
 }
 
 .activityheading {
-    
+
     font-family: 'Gochi Hand', cursive;
     color: #116979;
     padding-top: 20px;
@@ -154,6 +167,7 @@ nav ul li a:hover {
     margin: 0;
     font-family: 'Comic Neue', cursive;
 }
+
 .activitypic {
     max-width: 100%;
     border: 2px solid #DEE3E2;
@@ -187,10 +201,11 @@ footer {
 
 .responsive li {
     display: block;
-  }
+}
+
 /*----- Clearfix: Force an Element not to collapse -----*/
 .clearfix:after {
     content: "";
     display: table;
     clear: both;
-  }
+}

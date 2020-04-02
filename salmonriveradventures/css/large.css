@@ -1,4 +1,14 @@
 @media only screen and (min-width: 60em) {
+    #logo {
+        padding: 10px;
+    }
 
+    #companyname {
+        font-size: 70px;
+    }
 
-}    
+    #motto {
+        font-size: 40px;
+    }
+
+}
