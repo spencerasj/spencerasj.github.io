@@ -117,6 +117,10 @@ nav ul li a:hover {
     padding: 15px;
     margin: none;
 }
+#home-a {
+    border: 5px solid  #18B0B0;
+    margin: 15px;
+ }
 
 #home-b {
     
@@ -127,33 +131,22 @@ nav ul li a:hover {
 }
 
 #home-c {
-    border: 5px solid #116979;;
+   
     margin: 15px;
 }
 #home-d {
-    border: 5px solid #116979;;
+   
    margin: 15px;
 }
 #home-e {
-    border: 5px solid #116979;;
+    
     margin: 15px;
 }
-#home-f {
-    border: 5px solid #116979;;
-    margin: 15px;
-}
-#home-g {
-    border: 5px solid #116979;;
-    margin: 15px;
-}
-#home-h {
-    border: 5px solid #116979;;
-    margin: 15px;
-}
+
 .activityheading {
-    border: 2px solid #DE7119;
+    
     font-family: 'Gochi Hand', cursive;
-    color:#18B0B0;
+    color: #116979;
     padding: 10px;
     margin: 10px;
 }
