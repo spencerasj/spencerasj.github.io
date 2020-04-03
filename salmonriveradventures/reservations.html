@@ -8,7 +8,7 @@
   <meta name="author" content="Jennifer Spencer">
   <meta name="description" content="Salmon River Adventures the best white water rafting site in Idaho">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  
+
   <link href="https://fonts.googleapis.com/css2?family=Comic+Neue&family=Gochi+Hand&display=swap" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="css/normalize.css">
   <link rel="stylesheet" type="text/css" href="css/small.css">
@@ -17,38 +17,116 @@
 </head>
 
 <body>
-   <header>
+  <header>
+    <section class="header">
+      <img id="logo" src="images/logo.jpg" alt="logo with company initials">
 
-    <img id="logo" src="images/logo.png" alt="">
-    <section class="companyname">
-      <h1>SALMON RIVER ADVENTURES</h1>
-      <h2></h2>
+
+      <h1 id="companyname">SALMON RIVER ADVENTURES</h1>
+      <h2 id="motto">"Come Ride Our Rapids!"</h2>
+      <img id="headerimg" src="images/river.jpg" alt="river running through the forrest">
     </section>
   </header>
 
   <nav class="clearfix">
     <ul class="navigation">
       <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
-      <li><a href="">Home</a></li>
-      <li><a href="">River Guides</a></li>
-      <li class="active"><a href="">Reservations</a></li>
-      <li><a href="">Contact</a></li>
+      <li class="active"><a href="https://spencerasj.github.io/salmonriveradventures/home.html">Home</a></li>
+      <li><a href="https://spencerasj.github.io/salmonriveradventures/riverguides.html">River Guides</a></li>
+      <li><a href="https://spencerasj.github.io/salmonriveradventures/reservations.html">Reservations</a></li>
+      <li><a href="https://spencerasj.github.io/salmonriveradventures/contact.html">Contact</a></li>
     </ul>
   </nav>
 
   <main id="">
+    <table>
+      <thead class="header">
+      <tr>
+       <th colspan ="3">Choose Your Adventure</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><!-- First row -->
+        <td>Name of the Trip</td>
+        <td>Length of Trip</td>
+        <td>Skill Level</td>
+        <td>Cost of the Trip</td>
+        <!-- <td>Table Cell</td> -->
+      </tr>
+      <tr class="data2"><!-- Second row -->
+        <td>1 Day White Water Rafting</td>
+        <td>1 Day</td>
+        <td>Beginner - Intermediate</td>
+        <td>$125</td>
+      </tr>
+      <tr class="data1"><!-- Third row -->
+        <td>1 Day White Water Kayaking</td>
+        <td>1 Day</td>
+        <td>Intermediate to Expert</td>
+        <td>$150</td>
+      </tr>
+      <tr class="data2"><!-- Fourth row -->
+        <td>3 Day White Water Rafting</td>
+        <td>3 Days</td>
+        <td>Beginner - Intermediate</td>
+        <td>$1,200</td>
+      </tr>
+      
+    </tbody>
+    <tfoot class="footer">
+        <tr>
+          <td colspan ="3">Last updated 4/2/2020</td>
+        </tr>
+      </tfoot>
+  </table>
+    <form method="get" action="thanks.html">
+      <fieldset>
+        <legend>Applicant Information</legend>
+        <label class="top">Full Name*<input type="text" name="name" required></label>
+        <label class="top">Email<input type="email" name="email" placeholder="someone@gmail.com"></label>
+        <label class="top">Phone*<input type="tel" name="phone" required></label>
+        <label class="top">Zip Code*<input type="number" name="zip" required></label>
+      </fieldset>
+      <fieldset>
+        <label class="top">Adventure Start Date<input type="date" name="date"></label>        
+        <label class="top">Trip Options
+          <select name="region">
+            <option value="">Select your trip</option>
+            <option value="Preston">1 Day White Water Trip</option>
+            <option value="Soda Springs">1 Day Kayak Trip</option>
+            <option value="Fish Haven">3 Day White Water Trip</option>
+          </select>
+        </label>
+        
+      </fieldset>
+      <fieldset>
+        <label class="top" for="comments">Additional Information and Comments:</label>
+        <textarea id="comments" rows="4" cols="50">
+              </textarea>
+      </fieldset>
+      <input class="submitButton" type="submit" value="Submit your Information">
+    </form>
+  
     
   </main>
 
 
   <footer>
-    
+    <section>
+      <div>
+        <p id="contactinfo">CONTACT INFORMATION</p>
+        <p id="address">1131 S Main St., Riggins, ID</p>
+        <p></p>
+      </div>
+      <div></div>
+    </section>
+
     <section>
       <p id="info"> &copy;2020 | Jennifer Spencer | Utah | <a href="https://www.byui.edu/online">BYUI Online
           Learning</a></p>
-      
+
     </section>
-    <script src=""></script>
+    <script src="js/home.js"></script>
 
 
   </footer>
