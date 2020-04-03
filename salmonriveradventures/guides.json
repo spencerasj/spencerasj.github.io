@@ -1,0 +1,29 @@
+{
+    "guides": [
+      {
+        "name": "Joe",
+        "photo": "joe.jpg",
+        "certification": "Certified to run Expert level Rivers.  CPR Certified",
+        "yearsOfExperience": 7,
+        "email": "joe@salmonriveradventures.com",
+        "bio": ""
+      },
+      {
+        "name": "Samantha",
+        "photo": "samantha.jpg",
+        "certification":  "Certified to run Expert level Rivers.  CPR Certified",
+        "yearFounded": 8,
+        "currentPopulation": "samantha@salmonriveradventures.com",
+        "bio": ""
+      },
+      {
+        "name": "Ken",
+        "photo": "ken.jpg",
+        "certification":  "Certified to run Advanced level Rivers.  CPR Certified",
+        "yearFounded": 3,
+        "currentPopulation": "ken@salmonriveradventures.com",
+        "bio": ""
+         
+      }
+    ]
+}
