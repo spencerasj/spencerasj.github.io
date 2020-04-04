@@ -255,7 +255,7 @@ form fieldset {
     max-width: 20rem;
   }
   textarea {
-      font-size: 0px;
+      font-size: 75%;
   }
   #thankyou {
     height: 500px;
