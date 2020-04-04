@@ -5,22 +5,22 @@
     }
 
     #companyname {
-        font-size: 70px;
+        font-size: 4vw;
     }
 
     #motto {
-        font-size: 40px;
+        font-size: 3vw;
     }
 .navigation {
     font-size: 25px;
 }
 #welcomemessage {
-    font-size: 30px;
+    font-size: 2vw;
     }
 .activityheading {
-    font-size: 25px;
+    font-size: 2vw;
 }
 .activitytext{
-    font-size: 18px;
+    font-size: 1.5vw;
 }
 }
