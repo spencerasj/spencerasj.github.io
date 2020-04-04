@@ -192,6 +192,11 @@ footer {
     margin: 0px;
     padding-left: 15px;
 }
+#phone {
+    font-family: 'Comic Neue', cursive;
+    margin: 0px;
+    padding-left: 15px;
+}
 
 #info {
     font-family: 'Comic Neue', cursive;
