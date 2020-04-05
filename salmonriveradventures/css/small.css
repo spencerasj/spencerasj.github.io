@@ -223,7 +223,7 @@ form fieldset {
   form label.top,
   form div {
     display: block;
-    padding-top: 1rem;
+    padding-top: 1.5rem;
     color: #116979;
     font-size: 1vw;
   }
