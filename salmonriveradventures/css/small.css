@@ -270,17 +270,24 @@ form fieldset {
  #map {
     color: #DE7119;
     font-family: 'Comic Neue', cursive;
- }
+    padding-left: 30px;
+    padding-top: 30px;
+    font-size: 2vw;
+}
+#map-p{
+    margin: 0px;
+}
+#maplink {
+    font-size: 1vw;
+}
  #contactmain {
      background-color: white;
-  
- }
+  }
  #contact {
     font-family: 'Comic Neue', cursive;
     padding-left: 30px;
     color:#116979;
-    padding-top: 30px;
-
+    padding-top: 20px;
  }
  #contactp {
     font-family: 'Comic Neue', cursive;
