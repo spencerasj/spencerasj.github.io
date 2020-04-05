@@ -273,11 +273,14 @@ form fieldset {
  }
  #contactmain {
      background-color: white;
+     margin: 50px;
  }
  #contact {
     font-family: 'Comic Neue', cursive;
     padding-left: 30px;
     color:#116979;
+    padding-top: 30px;
+
  }
  #contactp {
     font-family: 'Comic Neue', cursive;
