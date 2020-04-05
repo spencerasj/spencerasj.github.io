@@ -217,6 +217,7 @@ form fieldset {
     color: #116979;
     margin: 0 1rem;
     padding: 0 .5rem;
+    font-size: 1vw;
   }
   
   form label.top,
@@ -224,7 +225,7 @@ form fieldset {
     display: block;
     padding-top: 1rem;
     color: #116979;
-    font-size: .8rem;
+    font-size: 1vw;
   }
   
   form label.top input,
@@ -253,6 +254,8 @@ form fieldset {
     margin: 0 0 2rem 2%;
     width: 96%;
     max-width: 20rem;
+    font-family: 'Comic Neue', cursive;
+    font-size: 1vw;
   }
   textarea {
       font-size: 75%;
@@ -288,11 +291,17 @@ form fieldset {
     padding-left: 30px;
     color:#116979;
     padding-top: 20px;
+    font-size: 2vw;
+    margin: 0px;
+    margin-top: 30px;
+    margin-bottom: 15px;
  }
  #contactp {
     font-family: 'Comic Neue', cursive;
     padding-left: 30px;
     color:#116979;
+    font-size: 1vw;
+    margin: 0px;
  }
  /*-----------------------------------------------------------------contact page end-------------------------------------------------------------------*/
 .responsive li {
