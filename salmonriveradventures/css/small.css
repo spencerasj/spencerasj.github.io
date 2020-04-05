@@ -247,8 +247,8 @@ form fieldset {
   
   form input.submitButton {
    
-    background-color: #E1F4F3;
-    color:#116979;
+    background-color:  #DE7119;
+    color: white;
     padding: .75rem 1.5rem;
     margin: 0 0 2rem 2%;
     width: 96%;
@@ -267,6 +267,10 @@ form fieldset {
   }
  /*-----------------------------------------------------------------reservations form end---------------------------------------------------------------*/ 
  /*-----------------------------------------------------------------contact page start---------------------------------------------------------------*/
+ #map {
+    color: #DE7119;
+    font-family: 'Comic Neue', cursive;
+ }
  #contactmain {
      background-color: white;
  }
