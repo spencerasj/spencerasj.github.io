@@ -44,6 +44,10 @@ img {
     color: white;
 
 }
+#social{
+    float: right;
+   
+}
 
 /*nav.clearfix {
     width: 100%;
@@ -307,6 +311,7 @@ form fieldset {
      height: 30px;
      width: 30px;
  }
+ 
  /*-----------------------------------------------------------------contact page end-------------------------------------------------------------------*/
 .responsive li {
     display: block;
