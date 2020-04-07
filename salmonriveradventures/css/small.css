@@ -181,6 +181,9 @@ footer {
     background-color: #116979;
     color: white;
 }
+#weatherbox {
+    float: right;
+}
 
 #contactinfo {
     font-family: 'Gochi Hand', cursive;
