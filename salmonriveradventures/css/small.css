@@ -343,7 +343,6 @@ textarea {
     grid-template-columns: 1fr;
     grid-gap: 10px;
     justify-content: center;
-    text-align: center;
     padding: 10px;
     max-width: 100%;
   }
