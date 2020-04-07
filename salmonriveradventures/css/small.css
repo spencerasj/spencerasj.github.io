@@ -348,7 +348,8 @@ textarea {
   }
   
   #riverguidemain div.cards section h3 {
-    font-family: 'Shadows Into Light', cursive;
+    font-family: 'Comic Neue', cursive;
+    color: #116979;
     font-size: 40px;
     text-align: center;
     margin: 0;
@@ -356,31 +357,22 @@ textarea {
   }
   
   #riverguidemain section {
-    font-family: 'Shadows Into Light', cursive;
-    background-color: rgb(245, 245, 247);
+    font-family: 'Comic Neue', cursive;
+    color: #18B0B0;
+    background-color: white;
     
     padding: 10px;
     margin: 10px;
   }
   
-  #riverguidemain div.cards section h4 {
-    font-style: italic;
-    font-weight: bold;
-    font-family: 'Shadows Into Light', cursive;
-    color: #706c61;
-    text-align: center;
-    margin: 0;
-    text-shadow: none;
-    padding: 5px;
-  }
-  
   #riverguidemain p {
     margin: 0;
+    font-family: 'Comic Neue', cursive;
+    padding-left: 15px;
+    color:#18B0B0;
   }
   
-  #riverguidemain img {
-    height: 200px;
-  }
+  
 
 /*-----------------------------------------------------------------riverguides page end---------------------------------------------------------------*/
 .responsive li {

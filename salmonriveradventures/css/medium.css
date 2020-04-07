@@ -99,5 +99,8 @@
         display: flex;
         flex-direction: row-reverse;
     }
+    #riverguidemain img {
+        width: 50%;
+    }
 
 }

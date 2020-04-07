@@ -3,25 +3,25 @@
       {
         "name": "Kate",
         "photo": "kate.jpg",
-        "certification": "Certified to run Expert level Rivers.  CPR Certified",
+        "certification":  "Expert level / CPR Certified",
         "yearsOfExperience": 7,
-        "email": "kate@salmonriveradventures.com",
+        "email": "kate@sradventures.com",
         "bio": ""
       },
       {
         "name": "Samantha",
         "photo": "samantha.jpg",
-        "certification":  "Certified to run Expert level Rivers.  CPR Certified",
+        "certification": "Expert level / CPR Certified",
         "yearsOfExperience": 8,
-        "email": "samantha@salmonriveradventures.com",
+        "email": "samantha@sradventures.com",
         "bio": ""
       },
       {
         "name": "Ken",
         "photo": "ken.jpg",
-        "certification":  "Certified to run Advanced level Rivers.  CPR Certified",
+        "certification": "Int-Advanced level / CPR Certified",
         "yearsOfExperience": 3,
-        "email": "ken@salmonriveradventures.com",
+        "email": "ken@sradventures.com",
         "bio": ""
          
       }
