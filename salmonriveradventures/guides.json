@@ -1,11 +1,11 @@
 {
     "guides": [
       {
-        "name": "Joe",
-        "photo": "joe.jpg",
+        "name": "Kate",
+        "photo": "kate.jpg",
         "certification": "Certified to run Expert level Rivers.  CPR Certified",
         "yearsOfExperience": 7,
-        "email": "joe@salmonriveradventures.com",
+        "email": "kate@salmonriveradventures.com",
         "bio": ""
       },
       {
