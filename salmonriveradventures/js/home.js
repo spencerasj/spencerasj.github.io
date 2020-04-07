@@ -14,19 +14,19 @@ fetch(apiURL)
     document.getElementById('tempFahr').textContent = ((((jsObject.main.temp_max) - 273.15) * 1.8 + 32).toFixed(0));
     document.getElementById('humidity').textContent = (jsObject.main.humidity);
     document.getElementById('windSpeed').textContent = (jsObject.wind.speed.toFixed(0));
+    windchill(tempFahr, windSpeed);
 
   });
-windchill();
-function windchill() {
-  let t = parseFloat(document.getElementById('currentdesc').textContent);
-  let s = parseFloat(document.getElementById('windSpeed').textContent);
-  let wc = 0.0;
-  if (t <= 50 && s > 3) {
-    wc = Math.round(35.74 + .6215 * t - 35.75 * Math.pow(s, .16) + .4275 * t * Math.pow(s, .16));
-    console.log(wc);
-  } else {
-    wc = "N/A"
+  function windchill(t,s) {
+    //let t = parseFloat(document.getElementById('tempFahr').textContent);
+    //let s = parseFloat(document.getElementById('windSpeed').textContent);
+    let wc;
+    
+    if (t <= 50 && s > 3) {
+      wc = Math.round(35.74 + .6215 * t - 35.75 * Math.pow(s, .16) + .4275 * t * Math.pow(s, .16));
+    } else {
+      wc = "N/A"
+    }
+    document.getElementById("windchill").innerHTML = wc + "&#8457;"
+  
   }
-  document.getElementById('windchill').innerHTML = wc + "&#8457;"
-
-}
