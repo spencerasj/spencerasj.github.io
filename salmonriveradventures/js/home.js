@@ -16,11 +16,11 @@ fetch(apiURL)
     document.getElementById('windSpeed').textContent = (jsObject.wind.speed.toFixed(0));
 
   });
-
+windchill();
 function windchill() {
-  let t = parseFloat(document.getElementById('currentdesc').value);
-  let s = parseFloat(document.getElementById('windSpeed').value);
-  let wc = 0;
+  let t = parseFloat(document.getElementById('currentdesc').textContent);
+  let s = parseFloat(document.getElementById('windSpeed').textContent);
+  let wc = 0.0;
   if (t <= 50 && s > 3) {
     wc = Math.round(35.74 + .6215 * t - 35.75 * Math.pow(s, .16) + .4275 * t * Math.pow(s, .16));
     console.log(wc);
@@ -30,4 +30,3 @@ function windchill() {
   document.getElementById('windchill').innerHTML = wc + "&#8457;"
 
 }
-windchill()

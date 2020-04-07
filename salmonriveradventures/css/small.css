@@ -183,6 +183,11 @@ footer {
 }
 #weatherbox {
     float: right;
+    font-family: 'Comic Neue', cursive;
+}
+th {
+    font-family: 'Gochi Hand', cursive;
+    font-size: large; 
 }
 
 #contactinfo {
