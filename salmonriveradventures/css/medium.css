@@ -21,14 +21,18 @@
 
     #home-a {
         grid-column-start: 1;
-        grid-column-end: 4;
+        grid-column-end: 3;
         
     }
 
     #home-b {
-        grid-column-start: 4;
-        grid-column-end: 7;
+        grid-column-start: 3;
+        grid-column-end: 5;
         padding: 15px;
+    }
+    #home-f {
+        grid-column-start: 5;
+        grid-column-end: 7;
     }
 
     #home-c {

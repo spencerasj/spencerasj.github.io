@@ -114,11 +114,6 @@ nav ul li a:hover {
     margin: 30px;
 }
 
-#home-a {
-    border: 5px solid #18B0B0;
-    margin: 15px;
-}
-
 #welcomemessage {
     font-family: 'Comic Neue', cursive;
     color: #116979;
@@ -132,8 +127,11 @@ nav ul li a:hover {
 }
 
 #home-b {
-
-    padding: 15px;
+padding: 15px;
+}
+#home-f {
+    border: 5px solid #18B0B0;
+    margin: 15px;
 }
 
 #mainpic {
