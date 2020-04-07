@@ -6,7 +6,7 @@
         "certification":  "Expert level / CPR Certified",
         "yearsOfExperience": 7,
         "email": "kate@sradventures.com",
-        "bio": ""
+        "bio": "Kate is from Denver, CO.  She loves the outdoors, reading, and her dog."
       },
       {
         "name": "Samantha",
@@ -14,7 +14,7 @@
         "certification": "Expert level / CPR Certified",
         "yearsOfExperience": 8,
         "email": "samantha@sradventures.com",
-        "bio": ""
+        "bio": "Samantha is from Idaho Falls, ID.  She has a degree in Fitness and loves anything adventurous."
       },
       {
         "name": "Ken",
@@ -22,7 +22,7 @@
         "certification": "Int-Advanced level / CPR Certified",
         "yearsOfExperience": 3,
         "email": "ken@sradventures.com",
-        "bio": ""
+        "bio": "Ken is from Riggins, ID.  He is working towards his degree.  He wants to be a physical therapist."
          
       }
     ]
