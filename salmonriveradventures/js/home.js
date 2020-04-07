@@ -51,7 +51,7 @@ fetch("guides.json")
         let certification = document.createElement('p');
         let experience = document.createElement('p');
         let email = document.createElement('p');
-        
+        let bio = document.createElement('p');
         
 
         name.textContent = guides[i].name;
@@ -59,12 +59,14 @@ fetch("guides.json")
         certification.textContent = "Level of Certification: " + guides[i].certification;
         experience.textContent = "Experience: " + guides[i].yearsOfExperience;
         email.textContent = "Email: " + guides[i].email;
+        bio.textContent = "Bio: " + guides[i].bio;
         
         div.appendChild(name);
         card.appendChild(photo);
         div.appendChild(certification);
         div.appendChild(experience);
         div.appendChild(email);
+        div.appendChild(bio);
         card.appendChild(div);
         
             
