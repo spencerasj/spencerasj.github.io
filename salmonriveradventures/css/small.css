@@ -44,9 +44,10 @@ img {
     color: white;
 
 }
-#social{
+
+#social {
     float: right;
-   
+
 }
 
 /*nav.clearfix {
@@ -181,15 +182,17 @@ footer {
     background-color: #116979;
     color: white;
 }
+
 #weatherbox {
     float: right;
     font-family: 'Comic Neue', cursive;
     padding-right: 15px;
     padding-top: 15px;
 }
+
 th {
     font-family: 'Gochi Hand', cursive;
-    font-size: 20px; 
+    font-size: 20px;
 }
 
 #contactinfo {
@@ -206,6 +209,7 @@ th {
     margin: 0px;
     padding-left: 15px;
 }
+
 #phone {
     font-family: 'Comic Neue', cursive;
     margin: 0px;
@@ -224,45 +228,45 @@ form fieldset {
     padding: .5rem 2%;
     font-family: 'Comic Neue', cursive;
     border: none;
-  
-  }
-  
-  form legend {
+
+}
+
+form legend {
     color: #116979;
     margin: 0 1rem;
     padding: 0 .5rem;
     font-size: 1vw;
-  }
-  
-  form label.top,
-  form div {
+}
+
+form label.top,
+form div {
     display: block;
     padding-top: 1.5rem;
     color: #116979;
     font-size: 1vw;
-  }
-  
-  form label.top input,
-  form label.top select {
-  
+}
+
+form label.top input,
+form label.top select {
+
     display: block;
     font-size: 1rem;
     padding: .75rem;
     width: 100%;
-    color:#116979;
+    color: #116979;
     max-width: 20rem;
     background-color: white;
-  }
-  
-  form label.sbs {
+}
+
+form label.sbs {
     display: block;
     padding: .75rem 0;
     color: #116979;
-  }
-  
-  form input.submitButton {
-   
-    background-color:  #DE7119;
+}
+
+form input.submitButton {
+
+    background-color: #DE7119;
     color: white;
     padding: .75rem 1.5rem;
     margin: 0 0 2rem 2%;
@@ -270,59 +274,120 @@ form fieldset {
     max-width: 20rem;
     font-family: 'Comic Neue', cursive;
     font-size: 1vw;
-  }
-  textarea {
-      font-size: 75%;
-  }
-  #thankyou {
+}
+
+textarea {
+    font-size: 75%;
+}
+
+#thankyou {
     height: 500px;
-  
-  }
-  #thankyoup {
+
+}
+
+#thankyoup {
     font-family: 'Comic Neue', cursive;
     font-size: 50px;
-  }
- /*-----------------------------------------------------------------reservations form end---------------------------------------------------------------*/ 
- /*-----------------------------------------------------------------contact page start---------------------------------------------------------------*/
- #map {
+}
+
+/*-----------------------------------------------------------------reservations form end---------------------------------------------------------------*/
+/*-----------------------------------------------------------------contact page start---------------------------------------------------------------*/
+#map {
     color: #DE7119;
     font-family: 'Comic Neue', cursive;
     padding-left: 30px;
     padding-top: 30px;
     font-size: 2vw;
 }
-#map-p{
+
+#map-p {
     margin: 0px;
 }
+
 #maplink {
     font-size: 1vw;
 }
- #contactmain {
-     background-color: white;
-  }
- #contact {
+
+#contactmain {
+    background-color: white;
+}
+
+#contact {
     font-family: 'Comic Neue', cursive;
     padding-left: 30px;
-    color:#116979;
+    color: #116979;
     padding-top: 20px;
     font-size: 2vw;
     margin: 0px;
     margin-top: 30px;
     margin-bottom: 15px;
- }
- #contactp {
+}
+
+#contactp {
     font-family: 'Comic Neue', cursive;
     padding-left: 30px;
-    color:#116979;
+    color: #116979;
     font-size: 1vw;
     margin: 0px;
- }
- .socialmedia {
-     height: 30px;
-     width: 30px;
- }
- 
- /*-----------------------------------------------------------------contact page end-------------------------------------------------------------------*/
+}
+
+.socialmedia {
+    height: 30px;
+    width: 30px;
+}
+
+/*-----------------------------------------------------------------contact page end-------------------------------------------------------------------*/
+/*-----------------------------------------------------------------riverguides page start----------------------------------------------------------------*/
+#riverguidemain {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+    max-width: 100%;
+  }
+  
+  #riverguidemain div.cards section h3 {
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 40px;
+    text-align: center;
+    margin: 0;
+    text-shadow: none;
+  }
+  
+  #riverguidemain section {
+    font-family: 'Shadows Into Light', cursive;
+    background-color: rgb(245, 245, 247);
+    
+    padding: 10px;
+    margin: 10px;
+  }
+  
+  #riverguidemain div.cards section h4 {
+    font-style: italic;
+    font-weight: bold;
+    font-family: 'Shadows Into Light', cursive;
+    color: #706c61;
+    text-align: center;
+    margin: 0;
+    text-shadow: none;
+    padding: 5px;
+  }
+  
+  #riverguidemain p {
+    margin: 0;
+  }
+  
+  #riverguidemain img {
+    box-shadow: 0 0 20px #000;
+    margin-top: 10px;
+    height: 200px;
+    padding: 10px;
+    margin: 20px;
+  }
+
+/*-----------------------------------------------------------------riverguides page end---------------------------------------------------------------*/
 .responsive li {
     display: block;
 }

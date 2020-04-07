@@ -80,4 +80,15 @@
     nav ul li {
         float: left;
     }
+    #riverguidemain div.cards {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    #riverguide div.cards section {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
 }
