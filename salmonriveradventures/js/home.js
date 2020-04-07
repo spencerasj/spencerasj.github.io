@@ -30,3 +30,47 @@ fetch(apiURL)
     document.getElementById("windchill").innerHTML = wc + "&#8457;"
   
   }
+
+
+
+
+fetch("guides.json")
+  .then(function (response) {
+    return response.json();
+  })
+  .then(function (jsonObject) {
+     
+
+    const guides = jsonObject['guides'];
+    for (let i = 0; i < guides.length; i++ ) {
+        if (guides[i].name === "Samantha" || guides[i].name == "Kate" || guides[i].name == "Ken") {
+        let card = document.createElement('section');
+        let div = document.createElement('div');
+        let name = document.createElement('h3');
+        let photo = document.createElement('img');
+        let certification = document.createElement('p');
+        let experience = document.createElement('p');
+        let email = document.createElement('p');
+        
+        
+
+        name.textContent = guides[i].name;
+        photo.setAttribute('src', 'images/' + guides[i].photo);
+        certification.textContent = "Level of Certification: " + guides[i].certification;
+        experience.textContent = "Experience: " + guides[i].yearsOfExperience;
+        email.textContent = "Email: " + guides[i].email;
+        
+        div.appendChild(name);
+        card.appendChild(photo);
+        div.appendChild(certification);
+        div.appendChild(experience);
+        div.appendChild(email);
+        card.appendChild(div);
+        
+            
+
+
+document.querySelector('div.cards').appendChild(card);
+        }
+      };
+    }); 

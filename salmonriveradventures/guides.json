@@ -12,16 +12,16 @@
         "name": "Samantha",
         "photo": "samantha.jpg",
         "certification":  "Certified to run Expert level Rivers.  CPR Certified",
-        "yearFounded": 8,
-        "currentPopulation": "samantha@salmonriveradventures.com",
+        "yearsOfExperience": 8,
+        "email": "samantha@salmonriveradventures.com",
         "bio": ""
       },
       {
         "name": "Ken",
         "photo": "ken.jpg",
         "certification":  "Certified to run Advanced level Rivers.  CPR Certified",
-        "yearFounded": 3,
-        "currentPopulation": "ken@salmonriveradventures.com",
+        "yearsOfExperience": 3,
+        "email": "ken@salmonriveradventures.com",
         "bio": ""
          
       }
