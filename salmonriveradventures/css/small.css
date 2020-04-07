@@ -303,6 +303,10 @@ form fieldset {
     font-size: 1vw;
     margin: 0px;
  }
+ .socialmedia {
+     height: 30px;
+     width: 30px;
+ }
  /*-----------------------------------------------------------------contact page end-------------------------------------------------------------------*/
 .responsive li {
     display: block;
