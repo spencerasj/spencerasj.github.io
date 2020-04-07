@@ -184,6 +184,7 @@ footer {
 #weatherbox {
     float: right;
     font-family: 'Comic Neue', cursive;
+    padding-right: 30px;
 }
 th {
     font-family: 'Gochi Hand', cursive;
