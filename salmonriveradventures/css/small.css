@@ -368,6 +368,7 @@ textarea {
   #riverguidemain p {
     margin: 0;
     font-family: 'Comic Neue', cursive;
+    font-size: 15px;
     padding-left: 15px;
     color:#18B0B0;
   }
