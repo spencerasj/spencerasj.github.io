@@ -23,7 +23,9 @@
     .activityheading {
         font-size: 1.5vw;
     }
-
+#weatherbox {
+    font-size: 1.5vw;
+}
     .activitytext {
         font-size: 1.5vw;
     }
@@ -54,7 +56,7 @@
     }
 
     #riverguidemain p {
-        font-size: 2vw;
+        font-size: x-large;
         padding: 10px;
     }
 
