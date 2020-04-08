@@ -211,7 +211,7 @@ footer {
     margin: 0px;
     padding-top: 15px;
     padding-left: 15px;
-    font-size: 20px;
+    font-size: x-large;
 
 }
 
@@ -219,12 +219,14 @@ footer {
     font-family: 'Comic Neue', cursive;
     margin: 0px;
     padding-left: 15px;
+    font-size: medium;
 }
 
 #phone {
     font-family: 'Comic Neue', cursive;
     margin: 0px;
     padding-left: 15px;
+    font-size: medium;
 }
 
 #info {
@@ -232,14 +234,17 @@ footer {
     margin: 0px;
     padding-top: 10px;
     padding-bottom:10px;
+    font-size: medium;
 }
 #resources {
     margin: 0px;
     padding-bottom: 15px;
+    font-size: medium;
 }
 footer p a {
     color: white;
     text-decoration: none;
+    font-size: medium;
   }
 /*------------------------------------------------------reservations form start------------------------------------------------------------------------------*/
 form fieldset {
