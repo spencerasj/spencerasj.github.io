@@ -132,7 +132,7 @@ table {
 }
 
 th {
-    font-size: xx-large;
+    font-size: large;
     color:  #116979;
     font-size: 20px;
 }
@@ -146,11 +146,11 @@ td {
     background-color: white;
     padding: 10px;
     margin: 10px;
-    font-size: large;
+    font-size: medium;
     max-width: 100%;
 }
 #triptable th {
-    font-size: x-large;
+    font-size: large;
 }
 .tripheading {
     color: #DE7119;
@@ -195,7 +195,7 @@ padding: 15px;
 
 .activityheading {
 
-    font-family: 'Gochi Hand', cursive;
+    font-family: 'Comic Neue', cursive;
     color: #116979;
     padding-top: 20px;
     margin: 0px;

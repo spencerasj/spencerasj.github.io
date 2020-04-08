@@ -13,7 +13,7 @@
     }
 
     .navigation {
-        font-size: 20px;
+        font-size: 1.5vw;
     }
     #home-a {
         grid-column-start: 1;
@@ -28,13 +28,14 @@
         grid-column-end: 5;
         grid-row-start: 1;
         grid-row-end: 2;
-        padding: 15px;
+       
     }
     #home-f {
         grid-column-start: 5;
         grid-column-end: 7;
         grid-row-start: 1;
         grid-row-end: 2;
+        
     }
 
     #home-c {
@@ -74,6 +75,8 @@
     }
     #weatherbox {
     font-size: 1.5vw;
+    padding-top: 15px;
+    padding-left: 50px;
 }
 th {
     font-size: 1.5vw; 
