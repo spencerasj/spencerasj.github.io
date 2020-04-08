@@ -249,7 +249,6 @@ footer p a {
   }
 /*------------------------------------------------------reservations form start------------------------------------------------------------------------------*/
 form fieldset {
-    margin: 2rem 0;
     padding-left: 10px;
     font-family: 'Comic Neue', cursive;
     border: none;
