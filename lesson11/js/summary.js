@@ -5,11 +5,11 @@ fetch(apiURL)
         console.log(jsObject);
 
         // document.getElementById('current-temp').textContent = jsObject.main.temp;
-        document.getElementById('currentdesc').textContent = (jsObject.weather[0].description);
+        document.getElementById('currentdesc').textContent = ((((jsObject.main.temp) - 273.15) * 1.8 + 32).toFixed(0));
         document.getElementById('tempFahr').textContent = ((((jsObject.main.temp_max) - 273.15) * 1.8 + 32).toFixed(0));
         document.getElementById('humidity').textContent = (jsObject.main.humidity);
         document.getElementById('windSpeed').textContent = (jsObject.wind.speed.toFixed(0));
-        windchill(((((jsObject.main.temp_max) - 273.15) * 1.8 + 32).toFixed(0)), (jsObject.wind.speed.toFixed(0)), "windchill");
+        windchill((((jsObject.main.temp) - 273.15) * 1.8 + 32).toFixed(0), (jsObject.wind.speed.toFixed(0)),"windchill");
         
     });
 
@@ -20,11 +20,11 @@ fetch(fishapiURL)
         console.log(jsObject);
 
         // document.getElementById('current-temp').textContent = jsObject.main.temp;
-        document.getElementById('fishcurrentdesc').textContent = (jsObject.weather[0].description);
+        document.getElementById('fishcurrentdesc').textContent = ((((jsObject.main.temp) - 273.15) * 1.8 + 32).toFixed(0));
         document.getElementById('fishtempFahr').textContent = ((((jsObject.main.temp_max) - 273.15) * 1.8 + 32).toFixed(0));
         document.getElementById('fishhumidity').textContent = (jsObject.main.humidity);
         document.getElementById('fishwindSpeed').textContent = (jsObject.wind.speed.toFixed(0));
-        windchill(((((jsObject.main.temp_max) - 273.15) * 1.8 + 32).toFixed(0)), (jsObject.wind.speed.toFixed(0)), "fishwindchill");
+        windchill((((jsObject.main.temp) - 273.15) * 1.8 + 32).toFixed(0), (jsObject.wind.speed.toFixed(0)), "fishwindchill");
     });
 
 const ssapiURL = "https://api.openweathermap.org/data/2.5/weather?zip=83276,us&APPID=97617174116da9f8f4bdafa9bc37bff2";
@@ -34,9 +34,9 @@ fetch(ssapiURL)
         console.log(jsObject);
 
         // document.getElementById('current-temp').textContent = jsObject.main.temp;
-        document.getElementById('sscurrentdesc').textContent = (jsObject.weather[0].description);
+        document.getElementById('sscurrentdesc').textContent = ((((jsObject.main.temp) - 273.15) * 1.8 + 32).toFixed(0));
         document.getElementById('sstempFahr').textContent = ((((jsObject.main.temp_max) - 273.15) * 1.8 + 32).toFixed(0));
         document.getElementById('sshumidity').textContent = (jsObject.main.humidity);
         document.getElementById('sswindSpeed').textContent = (jsObject.wind.speed.toFixed(0));
-        windchill(((((jsObject.main.temp_max) - 273.15) * 1.8 + 32).toFixed(0)), (jsObject.wind.speed.toFixed(0)), "sswindchill");    
+        windchill((((jsObject.main.temp) - 273.15) * 1.8 + 32).toFixed(0), (jsObject.wind.speed.toFixed(0)), "sswindchill");    
     });
