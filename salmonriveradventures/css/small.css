@@ -243,7 +243,7 @@ footer p a {
 /*------------------------------------------------------reservations form start------------------------------------------------------------------------------*/
 form fieldset {
     margin: 2rem 0;
-    padding-left: 30px;
+    padding-left: 10px;
     font-family: 'Comic Neue', cursive;
     border: none;
     font-size: large;
@@ -270,7 +270,7 @@ form label.top select {
     display: block;
     font-size: 1rem;
     padding: .75rem;
-    width: 100%;
+    width: 75%;
     color: #116979;
     max-width: 20rem;
     background-color: white;
@@ -287,8 +287,8 @@ form input.submitButton {
     background-color: #DE7119;
     color: white;
     padding: .75rem 1.5rem;
-    margin: 30px;
-    width: 100%;
+    margin: 10px;
+    width: 75%;
     max-width: 21rem;
     font-family: 'Comic Neue', cursive;
     font-size: large;
@@ -313,7 +313,7 @@ textarea {
 #map {
     color: #DE7119;
     font-family: 'Comic Neue', cursive;
-    padding-left: 30px;
+    padding-left: 10px;
     padding-top: 30px;
     font-size: xx-large;
 }
@@ -332,7 +332,7 @@ textarea {
 
 #contact {
     font-family: 'Comic Neue', cursive;
-    padding-left: 30px;
+    padding-left: 10px;
     color: #116979;
     padding-top: 20px;
     margin: 0px;
@@ -342,7 +342,7 @@ textarea {
 
 #contactp {
     font-family: 'Comic Neue', cursive;
-    padding-left: 30px;
+    padding-left: 10px;
     color: #116979;
     margin: 0px;
 }
