@@ -111,7 +111,6 @@ nav ul li a:hover {
     grid-template-columns: auto;
     grid-template-rows: auto;
     background-color: white;
-    margin: 30px;
 }
 
 #welcomemessage {
@@ -196,7 +195,7 @@ padding: 15px;
 footer {
     background-color: #116979;
     color: white;
-    text-align: center;
+    text-align: center;  
 }
 
 #weatherbox {
@@ -231,7 +230,9 @@ footer {
 #info {
     font-family: 'Comic Neue', cursive;
 }
-
+#resources {
+    margin-bottom: 15px;
+}
 /*------------------------------------------------------reservations form start------------------------------------------------------------------------------*/
 form fieldset {
     margin: 2rem 0;
