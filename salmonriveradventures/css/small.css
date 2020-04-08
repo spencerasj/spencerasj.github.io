@@ -5,8 +5,9 @@ body {
 img {
     width: 100%;
     height: auto;
-    
+
 }
+
 #headerimg {
     width: 100%;
     height: max-content;
@@ -51,6 +52,7 @@ img {
     float: right;
 
 }
+
 .navigation {
     margin: 0 auto;
     /*width: 100%;*/
@@ -118,47 +120,49 @@ nav ul li a:hover {
     color: #116979;
     padding: 15px;
 }
+
 #weather {
     font-family: 'Comic Neue', cursive;
     color: #116979;
     padding: 15px;
-    
+
 
 }
+
 table {
     font-family: 'Comic Neue', cursive;
     text-align: center;
-    
+
 }
 
 th {
     font-size: large;
-    color:  #116979;
+    color: #116979;
     font-size: 20px;
 }
+
 td {
-    color:  #116979;
+    color: #116979;
 
 }
+
 #triptable {
     border: 2px solid #116979;
     text-align: left;
     background-color: white;
     padding: 10px;
     margin: 10px;
-    font-size: medium;
+    font-size: small;
     max-width: 100%;
 }
+
 #triptable th {
-    font-size: large;
+    font-size: medium;
 }
+
 .tripheading {
     color: #DE7119;
 }
-#triptable td {
-    padding-right: 30px;
-}
-
 
 #home-a {
     border: 5px solid #18B0B0;
@@ -166,11 +170,12 @@ td {
 }
 
 #home-b {
-padding: 15px;
+    padding: 15px;
 }
+
 #home-f {
     border: 5px solid #18B0B0;
-    margin: 15px;   
+    margin: 15px;
 }
 
 #mainpic {
@@ -215,12 +220,12 @@ padding: 15px;
 footer {
     background-color: #116979;
     color: white;
-    text-align: center;  
+    text-align: center;
 }
 
 #weatherbox {
     font-family: 'Comic Neue', cursive;
-   padding: 50px;
+    padding: 50px;
     margin: 0px;
 
 }
@@ -252,20 +257,23 @@ footer {
     font-family: 'Comic Neue', cursive;
     margin: 0px;
     padding-top: 10px;
-    padding-bottom:10px;
+    padding-bottom: 10px;
     font-size: medium;
 }
+
 #resources {
     margin: 0px;
     padding-bottom: 15px;
     font-size: medium;
 }
+
 footer p a {
     color: white;
     text-decoration: none;
     font-size: medium;
     font-family: 'Comic Neue', cursive;
-  }
+}
+
 /*------------------------------------------------------reservations form start------------------------------------------------------------------------------*/
 form fieldset {
     padding-left: 10px;
@@ -387,36 +395,36 @@ textarea {
     justify-content: center;
     padding: 10px;
     max-width: 100%;
-  }
-  
-  #riverguidemain div.cards section h3 {
+}
+
+#riverguidemain div.cards section h3 {
     font-family: 'Comic Neue', cursive;
     color: #116979;
     font-size: 40px;
     text-align: center;
     margin: 0;
     text-shadow: none;
-  }
-  
-  #riverguidemain section {
+}
+
+#riverguidemain section {
     font-family: 'Comic Neue', cursive;
     color: #116979;
     background-color: white;
-    
+
     padding: 10px;
     margin: 10px;
-  }
-  
-  #riverguidemain p {
+}
+
+#riverguidemain p {
     margin: 0;
     font-family: 'Comic Neue', cursive;
     font-size: 15px;
     padding-left: 15px;
-    color:#116979;
+    color: #116979;
     padding: 5px;
-  }
-  
-  
+}
+
+
 
 /*-----------------------------------------------------------------riverguides page end---------------------------------------------------------------*/
 .responsive li {
