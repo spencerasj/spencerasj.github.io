@@ -81,6 +81,9 @@
 th {
     font-size: 1.5vw; 
 }
+triptable th {
+    font-size: x-large;
+}
     .activitytext {
         font-size: 1.5vw;
     }
