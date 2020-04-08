@@ -26,6 +26,8 @@
      #home-b {
         grid-column-start: 3;
         grid-column-end: 5;
+        grid-row-start: 1;
+        grid-row-end: 2;
         padding: 15px;
     }
     #home-f {
