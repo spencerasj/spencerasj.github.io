@@ -27,6 +27,9 @@
     .activitytext {
         font-size: 1.5vw;
     }
+    #mainpic {
+        display: block;
+    }
 
     
     #riverguidemain {
@@ -35,7 +38,7 @@
 
     #riverguidemain div.cards {
         display: grid;
-        grid-template-columns: 33% 33% 33%;
+        grid-template-columns: auto auto auto;
     }
 
     #riverguidemain div.cards section h3 {
