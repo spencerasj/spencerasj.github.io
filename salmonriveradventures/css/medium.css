@@ -21,9 +21,7 @@
         background-color: white;
         margin: 30px;
     }
-    #mainpic {
-        display:none;
-    }
+    
 
     #home-a {
         grid-column-start: 1;
