@@ -253,7 +253,7 @@ form legend {
     color: #116979;
     margin: 0 1rem;
     padding: 0 .5rem;
-    font-size: 1vw;
+    padding-left: 15px;
 }
 
 form label.top,
