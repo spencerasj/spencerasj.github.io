@@ -17,7 +17,7 @@
     }
 
     #welcomemessage {
-        font-size: large;
+        font-size: 2vw;
     }
 
     .activityheading {
@@ -54,7 +54,7 @@
     }
 
     #riverguidemain p {
-        font-size: x-large;
+        font-size: 2vw;
         padding: 10px;
     }
 
