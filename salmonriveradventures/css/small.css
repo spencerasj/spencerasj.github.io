@@ -200,8 +200,7 @@ footer {
 
 #weatherbox {
     font-family: 'Comic Neue', cursive;
-    padding-top: 40px;
-    padding-left: 40px;
+   padding: 50px;
     margin: 0px;
 
 }
@@ -229,9 +228,13 @@ footer {
 
 #info {
     font-family: 'Comic Neue', cursive;
+    margin: 0px;
+    padding-top: 10px;
+    padding-bottom:10px;
 }
 #resources {
-    margin-bottom: 15px;
+    margin: 0px;
+    padding-bottom: 15px;
 }
 footer p a {
     color: white;
@@ -258,7 +261,6 @@ form div {
     display: block;
     padding-top: 1.5rem;
     color: #116979;
-    font-size: 1vw;
 }
 
 form label.top input,
@@ -288,7 +290,6 @@ form input.submitButton {
     width: 96%;
     max-width: 20rem;
     font-family: 'Comic Neue', cursive;
-    font-size: 1vw;
 }
 
 textarea {
@@ -312,7 +313,7 @@ textarea {
     font-family: 'Comic Neue', cursive;
     padding-left: 30px;
     padding-top: 30px;
-    font-size: 2vw;
+    font-size: 6vw;
 }
 
 #map-p {
@@ -320,7 +321,7 @@ textarea {
 }
 
 #maplink {
-    font-size: 1vw;
+    font-size: 4vw;
 }
 
 #contactmain {
@@ -332,7 +333,6 @@ textarea {
     padding-left: 30px;
     color: #116979;
     padding-top: 20px;
-    font-size: 2vw;
     margin: 0px;
     margin-top: 30px;
     margin-bottom: 15px;
@@ -342,7 +342,6 @@ textarea {
     font-family: 'Comic Neue', cursive;
     padding-left: 30px;
     color: #116979;
-    font-size: 1vw;
     margin: 0px;
 }
 
