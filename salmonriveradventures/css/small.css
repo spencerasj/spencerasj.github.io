@@ -233,6 +233,10 @@ footer {
 #resources {
     margin-bottom: 15px;
 }
+footer p a {
+    color: white;
+    text-decoration: none;
+  }
 /*------------------------------------------------------reservations form start------------------------------------------------------------------------------*/
 form fieldset {
     margin: 2rem 0;
