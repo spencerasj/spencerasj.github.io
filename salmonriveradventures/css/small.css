@@ -245,6 +245,7 @@ footer p a {
     color: white;
     text-decoration: none;
     font-size: medium;
+    font-family: 'Comic Neue', cursive;
   }
 /*------------------------------------------------------reservations form start------------------------------------------------------------------------------*/
 form fieldset {
