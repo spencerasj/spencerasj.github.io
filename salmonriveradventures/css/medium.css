@@ -92,7 +92,12 @@
         display: flex;
         flex-direction: column;
     }
-    
+    #weatherbox {
+        padding: 10px;
+    }
+    th {
+        font-size: medium;
+    }
     #riverguidemain div.cards section {
         display: flex;
         flex-direction: row;
