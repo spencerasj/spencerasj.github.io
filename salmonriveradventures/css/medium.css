@@ -22,7 +22,9 @@
         margin: 30px;
     }
     
-
+#mainpic {
+    display: none;
+}
     #home-a {
         grid-column-start: 1;
         grid-column-end: 3;

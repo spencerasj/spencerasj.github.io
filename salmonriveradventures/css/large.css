@@ -23,6 +23,9 @@
     .activityheading {
         font-size: 1.5vw;
     }
+    #mainpic {
+        display: block;
+    }
     #weatherbox {
     font-size: 1.5vw;
 }
