@@ -23,8 +23,11 @@
     .activityheading {
         font-size: 1.5vw;
     }
-#weatherbox {
+    #weatherbox {
     font-size: 1.5vw;
+}
+th {
+    font-size: 1.5vw; 
 }
     .activitytext {
         font-size: 1.5vw;
