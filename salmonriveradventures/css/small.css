@@ -118,8 +118,29 @@ nav ul li a:hover {
     font-family: 'Comic Neue', cursive;
     color: #116979;
     padding: 15px;
-    margin: none;
 }
+#weather {
+    font-family: 'Comic Neue', cursive;
+    color: #116979;
+    padding: 15px;
+    
+
+}
+table {
+    font-family: 'Comic Neue', cursive;
+    text-align: center;
+    
+}
+
+th {
+    font-size: xx-large;
+    color:  #116979;
+    font-size: 20px;
+}
+td {
+    color:  #116979;
+}
+
 
 #home-a {
     border: 5px solid #18B0B0;
@@ -131,7 +152,7 @@ padding: 15px;
 }
 #home-f {
     border: 5px solid #18B0B0;
-    margin: 15px;
+    margin: 15px;   
 }
 
 #mainpic {
@@ -175,18 +196,15 @@ padding: 15px;
 footer {
     background-color: #116979;
     color: white;
+    text-align: center;
 }
 
 #weatherbox {
-    float: right;
     font-family: 'Comic Neue', cursive;
-    padding-right: 15px;
-    padding-top: 15px;
-}
+    padding-top: 40px;
+    padding-left: 40px;
+    margin: 0px;
 
-th {
-    font-family: 'Gochi Hand', cursive;
-    font-size: 20px;
 }
 
 #contactinfo {
@@ -212,8 +230,6 @@ th {
 
 #info {
     font-family: 'Comic Neue', cursive;
-    padding-left: 15px;
-    padding-bottom: 15px;
 }
 
 /*------------------------------------------------------reservations form start------------------------------------------------------------------------------*/
