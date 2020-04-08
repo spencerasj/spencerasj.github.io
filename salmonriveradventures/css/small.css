@@ -246,6 +246,7 @@ form fieldset {
     padding-left: 30px;
     font-family: 'Comic Neue', cursive;
     border: none;
+    font-size: large;
 
 }
 
@@ -260,6 +261,7 @@ form label.top,
 form div {
     display: block;
     color: #116979;
+    padding-top: 10px;
 }
 
 form label.top input,
@@ -287,8 +289,9 @@ form input.submitButton {
     padding: .75rem 1.5rem;
     margin: 30px;
     width: 100%;
-    max-width: 23rem;
+    max-width: 21rem;
     font-family: 'Comic Neue', cursive;
+    font-size: large;
 }
 
 textarea {
@@ -312,7 +315,7 @@ textarea {
     font-family: 'Comic Neue', cursive;
     padding-left: 30px;
     padding-top: 30px;
-    font-size: 6vw;
+    font-size: xx-large;
 }
 
 #map-p {
@@ -320,7 +323,7 @@ textarea {
 }
 
 #maplink {
-    font-size: 4vw;
+    font-size: x-large;
 }
 
 #contactmain {
