@@ -110,4 +110,9 @@
         font-size: 20px;
         padding: 10px;
     }
+    textarea {
+        font-size: 75%;
+        width: 30%;
+    }
+    
 }
