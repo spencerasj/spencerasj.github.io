@@ -11,12 +11,18 @@
     #motto {
         font-size: 25px;
     }
+    #welcomemessage {
+        font-size: large;
+    }
     #homecontainer {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: auto;
         background-color: white;
         margin: 30px;
+    }
+    #mainpic {
+        display:none;
     }
 
     #home-a {
@@ -64,7 +70,7 @@
 
     .navigation {
         flex-direction: row;
-        font-size: 25px;
+        font-size: x-large;
     }
 
     .navigation li a {
