@@ -145,7 +145,7 @@ h3 {
 }
 #contact {
   font-family: 'Shadows Into Light', cursive;
-  color: white;
+  color: #333333;
   font-size: x-large;
     font-weight: bold;
 }
@@ -158,7 +158,8 @@ h3 {
   background-color: #706c61;
   border: thin;
 }
-.sec1 div, .sec2 div{
+
+.sec1 div{
  padding: 10px;
  flex-wrap: wrap;
  
@@ -199,6 +200,10 @@ p {
 .smicon {
   width: 35px;
   height: 35px;
+  background-color: white;
+}
+#contactinfo {
+  border: 2px solid #333333;
   background-color: white;
 }
 
