@@ -17,6 +17,7 @@
     #homecontainer div.cards {
         display: flex;
         flex-direction: column;
+       
         /* display: grid; */
         /* grid-template-columns: 50% 50%; */
         /* text-align: center; */
@@ -34,7 +35,7 @@
     }
     #homecontainer div.cards section div{
         justify-content: center;
-        align-content: center;
+      
         width: 50%;
         /* grid-column-start: 1;
         grid-column-end: 3; 
