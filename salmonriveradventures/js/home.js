@@ -10,10 +10,10 @@ fetch(apiURL)
     console.log(jsObject);
 
     
-    document.getElementById('current').textContent = ((((jsObject.main.temp) - 273.15) * 1.8 + 32).toFixed(0));
-    document.getElementById('tempFahr').textContent = ((((jsObject.main.temp_max) - 273.15) * 1.8 + 32).toFixed(0));
-    document.getElementById('humidity').textContent = (jsObject.main.humidity);
-    document.getElementById('windSpeed').textContent = (jsObject.wind.speed.toFixed(0));
+    document.getElementById('current').textContent = ((((jsObject.main.temp) - 273.15) * 1.8 + 32).toFixed(0)) + "&#8457;";
+    document.getElementById('tempFahr').textContent = ((((jsObject.main.temp_max) - 273.15) * 1.8 + 32).toFixed(0)) + "&#8457;";
+    document.getElementById('humidity').textContent = (jsObject.main.humidity) + "&#37";
+    document.getElementById('windSpeed').textContent = (jsObject.wind.speed.toFixed(0)) + "mph";
     
 windchill(((((jsObject.main.temp) - 273.15) * 1.8 + 32).toFixed(0)), (jsObject.wind.speed.toFixed(0)));
 
