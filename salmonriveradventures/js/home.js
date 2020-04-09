@@ -28,7 +28,7 @@ windchill(((((jsObject.main.temp) - 273.15) * 1.8 + 32).toFixed(0)), (jsObject.w
     } else {
       wc = "N/A"
     }
-    document.getElementById("windchill").innerHTML = wc + "&#8457;"
+    document.getElementById("windchill").innerHTML = wc;
   
   }
 
