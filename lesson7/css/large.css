@@ -5,7 +5,7 @@
 }
 #gridcontainer {
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: 1fr 1fr 1fr;
 }   
 .griditem {
     padding: 15px;

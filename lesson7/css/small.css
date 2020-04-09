@@ -18,7 +18,7 @@ header {
 }
 #gridcontainer {
   display: grid;
-  grid-template-columns: auto;
+  grid-template-columns: 1fr;
   justify-items: center;
 }
 .griditem {
