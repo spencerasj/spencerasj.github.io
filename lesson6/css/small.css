@@ -25,7 +25,9 @@ header {
 .weathercontainer {
   flex-direction: row;
 }
-
+.herodiv {
+  position: relative;
+}
 .heropic img {
   width: 100%;
 }
@@ -34,7 +36,6 @@ header img {
   height: auto;
   position: relative;
   background-color: white;
- 
   left: 10px;
   border-color: white;
   border-radius: 5px;
@@ -112,7 +113,7 @@ main {
   max-width: 820px;
   margin: 0 auto;
 }
-h2 {
+h3 {
   font-family: 'Shadows Into Light', cursive;
   color: #333333;
   text-align: center;
@@ -139,14 +140,16 @@ h2 {
   
 }*/
 .weathersummary {
-  flex-direction: row;
-  position: relative;
-  top: 25px;
-  left: 50px;
+  font-family: 'Shadows Into Light', cursive;
+  position: absolute;
+  left: 15px;
+  top: 15px;
   padding: 1.5rem;
-  box-shadow: 0 0 30px black;
-  opacity: .8;
-  max-width: 175px;
+  box-shadow: 0 0 20px black;
+  opacity: .6;
+  margin-top: 10px;
+  font-weight: bold;
+  background-color: floralwhite;
 }
 .forecastcontainer {
   display: none;
