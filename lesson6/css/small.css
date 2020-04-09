@@ -148,22 +148,16 @@ h3 {
   color: #333333;
   font-size: x-large;
     font-weight: bold;
+    padding: 10px;
 }
 .sec1, .sec2 {
   display: flex;
   flex-wrap: wrap;
 }
-
-.sec2 {
-  background-color: #706c61;
-  border: thin;
-}
-
 .sec1 div{
  padding: 10px;
  flex-wrap: wrap;
- 
-}
+ }
 
 .rightcol {
     flex:1;
@@ -203,8 +197,9 @@ p {
   background-color: white;
 }
 #contactinfo {
-  border: 2px solid #333333;
+
   background-color: white;
+
 }
 
 footer {
