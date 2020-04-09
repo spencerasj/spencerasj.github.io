@@ -231,8 +231,9 @@ form input.submitButton {
 }
 
 /*------------------------------home page---------------------------------------*/
-#homepic {
-  max-width: 100%;
+.homepic {
+  width: 100%;
+  height:auto;
 }
 
 div #welText {
@@ -285,7 +286,7 @@ div #welText {
 }
 
 #homecontainer img {
-  box-shadow: 0 0 20px #000;
+  
   margin-top: 10px;
   width: 100%;
   height: auto;
