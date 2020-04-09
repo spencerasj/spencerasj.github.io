@@ -146,6 +146,8 @@ h3 {
 #contact {
   font-family: 'Shadows Into Light', cursive;
   color: white;
+  font-size: x-large;
+    font-weight: bold;
 }
 .sec1, .sec2 {
   display: flex;
@@ -197,7 +199,7 @@ p {
 .smicon {
   width: 35px;
   height: 35px;
-  background-color: #706c61;
+  background-color: white;
 }
 
 footer {
