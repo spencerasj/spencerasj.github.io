@@ -161,7 +161,7 @@ td {
 }
 
 .tripheading {
-    color: #DE7119;
+    color: #C83200;
     font-weight: bold;
 }
 
@@ -315,7 +315,7 @@ form label.sbs {
 
 form input.submitButton {
 
-    background-color: #DE7119;
+    background-color: #C83200;
     color: white;
     padding: .75rem 1.5rem;
     margin: 10px;
@@ -332,7 +332,7 @@ textarea {
 /*-----------------------------------------------------------------reservations form end---------------------------------------------------------------*/
 /*-----------------------------------------------------------------contact page start---------------------------------------------------------------*/
 #map {
-    color: #DE7119;
+    color: #C83200;
     font-family: 'Comic Neue', cursive;
     padding-left: 10px;
     padding-top: 30px;
