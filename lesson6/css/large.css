@@ -79,6 +79,7 @@ p {
 #map {
     height: 175px;
     width: 325px;
+    display: block;
 }
 footer {
     margin-right: 248px;
