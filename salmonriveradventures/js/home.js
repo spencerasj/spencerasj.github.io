@@ -63,12 +63,12 @@ fetch("guides.json")
         bio.textContent = "Bio: " + guides[i].bio;
         
         div.appendChild(name);
+        card.appendChild(photo);
         div.appendChild(certification);
         div.appendChild(experience);
         div.appendChild(email);
         div.appendChild(bio);
         card.appendChild(div);
-        card.appendChild(photo);
         
         
             
