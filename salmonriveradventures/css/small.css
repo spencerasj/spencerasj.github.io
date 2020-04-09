@@ -125,10 +125,17 @@ nav ul li a:hover {
     font-family: 'Comic Neue', cursive;
     color: #116979;
     padding: 15px;
-
+}
+.F:after {
+    content: "&#8457;";
 
 }
-
+.percent:after {
+    content: "&#37;";
+}
+.mph:after {
+    content: "mph";
+}
 table {
     font-family: 'Comic Neue', cursive;
     text-align: left;

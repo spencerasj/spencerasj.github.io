@@ -23,7 +23,7 @@ windchill(((((jsObject.main.temp) - 273.15) * 1.8 + 32).toFixed(0)), (jsObject.w
     //let s = parseFloat(document.getElementById('windSpeed').textContent);
     let wc = 0;
     
-    if (t <= 60 && s > 1) {
+    if (t <= 50 && s > 3) {
       wc = Math.round(35.74 + .6215 * t - 35.75 * Math.pow(s, .16) + .4275 * t * Math.pow(s, .16));
     } else {
       wc = "N/A"
