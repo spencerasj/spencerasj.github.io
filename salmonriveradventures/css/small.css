@@ -127,11 +127,11 @@ nav ul li a:hover {
     padding: 15px;
 }
 .F:after {
-    content: "&#8457;";
+    content: "F";
 
 }
 .percent:after {
-    content: "&#37;";
+    content: "%";
 }
 .mph:after {
     content: "mph";
