@@ -132,7 +132,7 @@ nav ul li a:hover {
 
 table {
     font-family: 'Comic Neue', cursive;
-    text-align: center;
+    text-align: left;
 
 }
 
@@ -287,9 +287,6 @@ form fieldset {
 
 form legend {
     color: #116979;
-    margin: 0 1rem;
-    padding: 0 .5rem;
-    padding-left: 15px;
 }
 
 form label.top,
