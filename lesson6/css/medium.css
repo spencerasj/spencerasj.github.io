@@ -38,4 +38,7 @@
          border-right: 1px solid #333333;
          padding: .8rem 1rem;
      }
+     .leftcol {
+        flex: 1;
+     }
     }
