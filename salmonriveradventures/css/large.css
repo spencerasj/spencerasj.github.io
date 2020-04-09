@@ -88,7 +88,13 @@
     }
 
     #triptable th {
+        font-size: xx-large;
+    }
+    #tripheading {
         font-size: x-large;
+    }
+    #triptable td {
+        font-size: large;
     }
 
     .activitytext {
@@ -129,5 +135,7 @@
         font-size: 75%;
         width: 35%;
     }
-
+#address, #phone, #info, #resources {
+    font-size: large;
+}
 }
